@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-09-28T04:31:04.690Z",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/projects",
+      "status": 200
+    },
+    {
+      "route": "/services",
+      "status": 200
+    },
+    {
+      "route": "/about",
+      "status": 200
+    },
+    {
+      "route": "/contact",
+      "status": 200
+    },
+    {
+      "route": "/projects/labellens",
+      "status": 404
+    },
+    {
+      "route": "/projects/chuangxu-planning-agent",
+      "status": 404
+    },
+    {
+      "route": "/projects/rongcheng-city-explorer",
+      "status": 404
+    },
+    {
+      "route": "/projects/unknown",
+      "status": 404
+    }
+  ],
+  "robots": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://portfolio.example/sitemap.xml\n",
+  "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://portfolio.example/</loc>\n</url>\n<url>\n<loc>https://portfolio.example/projects</loc>\n</url>\n<url>\n<loc>https://portfolio.example/services</loc>\n</url>\n<url>\n<loc>https://portfolio.example/about</loc>\n</url>\n<url>\n<loc>https://portfolio.example/contact</loc>\n</url>\n</urlset>\n",
+  "lighthouse": [
+    {
+      "route": "/",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/projects",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/services",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/about",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/contact",
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  ],
+  "domain": "Isolated fixture https://portfolio.example, not a deployment"
+}

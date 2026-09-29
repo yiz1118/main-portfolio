@@ -1,0 +1,70 @@
+{
+  "verifiedAt": "2026-09-28T04:33:22.168Z",
+  "metadata": [
+    {
+      "route": "/",
+      "title": "Freelance Web & App Developer — Websites, MVPs & AI Integrations",
+      "description": "I build websites and web applications for startups and small businesses. Explore project work, MVP development, dashboards and AI integrations.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/projects",
+      "title": "Work & Case Studies | Web & App Developer",
+      "description": "Explore application and AI workflow case studies, technical decisions, development processes, and documented outcomes.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/services",
+      "title": "Websites, Applications & MVP Development | Web & App Developer",
+      "description": "Business websites, custom web applications, startup MVPs, AI integrations and maintenance for founders, businesses and agencies.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/about",
+      "title": "About & Development Approach | Web & App Developer",
+      "description": "A Malaysian developer with a game-development background, building websites, apps and digital products with accountable architecture, testing and delivery.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/contact",
+      "title": "Start a Project | Web & App Developer",
+      "description": "Tell me about your website, application, MVP, dashboard or AI integration. Share your goals and scope to start a freelance project conversation.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/projects/labellens",
+      "title": "LabelLens | Web & App Developer",
+      "description": "An in-progress multilingual Flutter frontend exploring clearer food-label information, user preferences, and nutrition context.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/projects/chuangxu-planning-agent",
+      "title": "Chuangxu Planning Agent | Web & App Developer",
+      "description": "An AI-assisted planning workflow with document intake, explicit approval steps, versioned plans, and generated file outputs.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/projects/rongcheng-city-explorer",
+      "title": "Rongcheng City Explorer | Web & App Developer",
+      "description": "An interactive WeChat Mini Program that connects scenic chapters, QR checkpoints, and a digital collection experience.",
+      "og": "http://localhost:3000/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "contact": "Unconfigured; copy workflow verified; API returns 503; no email sent"
+}

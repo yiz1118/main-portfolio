@@ -1,0 +1,7 @@
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import type { Project } from "@/data/projects";
+export function ProjectCard({ project, priority = false }: { project: Project; priority?: boolean }) {
+  return <article className={`project-card accent-${project.accent}`}><Link href={`/projects/${project.slug}`} className="project-image-link" aria-label={`View ${project.title} case study`}><div className="project-image"><Image src={project.coverImage} alt={project.screenshots[0].alt} width={1200} height={800} sizes="(max-width: 767px) 100vw, 60vw" priority={priority} /><span className="project-arrow"><ArrowUpRight size={24} aria-hidden="true" /></span><span className="image-caption">Interface illustration</span></div></Link><div className="project-info"><div className="project-topline"><span className="eyebrow">{project.category}</span>{project.publicationStatus === "draft" && <span className="draft-badge">Draft case study</span>}</div><h3><Link href={`/projects/${project.slug}`}>{project.title}</Link></h3><p>{project.description}</p><div className="project-tags">{project.technologies.slice(0, 3).map(tech => <span key={tech}>{tech}</span>)}</div><dl className="project-facts"><div><dt>Status</dt><dd>{project.developmentStatus}</dd></div><div><dt>Type</dt><dd>{project.projectType || "[NEEDS MY CONTENT]"}</dd></div><div><dt>Role</dt><dd>{project.role.startsWith("[") ? "[NEEDS MY CONTENT]" : project.role}</dd></div></dl></div></article>;
+}

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.next-public/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+.vercel/
+artifacts/lighthouse-profile/
