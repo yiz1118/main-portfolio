@@ -1,39 +1,39 @@
-# Content to provide
+# Portfolio content status
 
-| Location | Required content |
-|---|---|
-| `lib/site.ts` | [NEEDS MY CONTENT] Public name, brand, email, GitHub, LinkedIn |
-| About | [NEEDS MY CONTENT] Real profile photo; optional availability |
-| Each project | [NEEDS MY CONTENT] Confirm project type, exact personal contribution, dates, and disclosure rights |
-| Each project image | [NEEDS MY CONTENT] Real screenshots of implemented screens, accurate alt text and captions |
-| Project links | [NEEDS MY CONTENT] Optional public demo and repository URLs |
-| Domain/email setup | [NEEDS MY CONTENT] HTTPS domain, verified sender, recipient, private provider key |
-| Budget options | [NEEDS MY CONTENT] Optional commercial ranges; V1 offers discussion preferences |
-| Future social proof | [NEEDS MY CONTENT] Only real, authorized testimonials and logos |
+Updated 2026-09-29 for the six-project integration.
 
-All current visuals are presentation illustrations. All current project classifications and personal roles are unconfirmed. No project is described as a paid client engagement. Do not publish a draft until its claims and assets have been reviewed.
+| Content | Current status |
+| --- | --- |
+| Public identity | Alson Chua; Independent Web & App Developer |
+| Location | Malaysia · Working with clients worldwide |
+| Availability | Available for freelance projects worldwide |
+| Contact | Supplied email, WhatsApp, LinkedIn, and GitHub configured centrally |
+| Main canonical origin | Supplied portfolio Vercel URL, with optional environment override |
+| Project order | VANTA Motorworks, NEXA, FORM / 27, EMBER, ATELIER NORTH, SOVA |
+| Project classification | All Independent Concept Project, 2026 |
+| Attribution | Product design and frontend development; no paid client engagement implied |
+| Case content | Overview, brief, objective, design, experience, responsive, implementation, skills, live/source actions |
+| Screenshots | All 36 required assets captured from deployed applications; no missing images |
+| Social proof | Empty; no fabricated testimonials or client logos |
+| Profile image | Intentional `ac.` signature panel; a portrait is optional |
 
-## Existing-work evidence assessment
+The old draft case studies and publicly visible pending-content labels have been removed from the portfolio presentation. Existing unused illustration files are no longer referenced by project data or pages.
 
-Inspected 2026-09-28; this is source/document inspection, not a current live-product audit.
+## Source and claim boundaries
 
-- **Rongcheng City Explorer / 榕城寻印:** inspected existing package manifest, native page inventory and recent handoff. Scenic, checkpoint, scanner and collection pages exist; the handoff describes precise QR matching and unresolved device/media acceptance. Suitable candidate for mobile application architecture. No real device or public-release claim.
-- **Chuangxu Planning Agent / 创序 Agent:** inspected handoff recovery point 0.88. It records a specific synthetic-document candidate demonstration with approvals, revisions and V1 downloads, while explicitly leaving generic rescheduling and renderer remediation open. Suitable candidate for workflow/state/AI integration decisions. No generic production-readiness claim.
-- **LabelLens / 食见:** inspected `docs/development/status.md`. Implemented frontend work is language/safety/goal onboarding plus typed domain/sample data. Home, scan, confirmation and analysis UI remain unfinished; there is no live OCR/API/auth/database. Suitable in-progress app architecture example, with its limitation prominent.
+Case content was grounded in the six repositories' manifests, page inventories, README and CASE-STUDY documents, together with current deployed screenshots. The applications remain independent. Their generated concept photographs depict fictional vehicles, garments, rooms, buildings, and products; the portfolio uses real screenshots of those interfaces.
 
-Internal source locations (documentation only; never imported into browser data):
+- VANTA: fictional vehicles and performance targets; local enquiry demonstration.
+- NEXA: local workspace state, sample source-linked answers, and simulated workflow runs; no production authentication, AI API, billing, or integrations.
+- FORM / 27: fictional merchandise and inventory; local bag and demonstration checkout without payments or orders.
+- EMBER: fictional restaurant, chef, menu, and location; reservation flow sends and stores nothing.
+- ATELIER NORTH: fictional architectural studies; no commissioned buildings or real studio enquiry service.
+- SOVA: fictional products and formulas; deterministic nonmedical routine guidance and demonstration checkout.
 
-```text
-C:\Users\alson\Documents\China intern\福州文旅\福州文旅\package.json
-C:\Users\alson\Documents\China intern\福州文旅\福州文旅\handoff.md
-C:\Users\alson\Documents\China intern\火山杯\handoff.md
-C:\Users\alson\Documents\codexProject\食见 app\docs\development\status.md
-```
+The brief and business-objective sections describe design intent. They do not assert measured revenue, conversions, leads, customers, awards, or client outcomes.
 
-## Recommended next portfolio projects
+## Optional future additions
 
-1. **Business booking platform:** demonstrate service selection, availability, booking confirmation, customer account and admin workflow. Build a complete flow with real database and test evidence before claiming these capabilities.
-2. **Business dashboard:** demonstrate authentication, CRUD, roles, analytics and team management with realistic sample data, labeled as a personal or concept project.
-3. **Focused AI application:** choose a bounded document-analysis or knowledge-search workflow with clear uncertainty, failure handling, and human review. Demonstrate the integration rather than broad AI claims.
+A real portrait, commercial budget bands, or actual authorized testimonials can be added later. None is required to complete this integration. Future backend projects can be added when their implemented capabilities have been verified.
 
-These are future products, not features implemented by this portfolio website. Actual results should describe working capabilities and verified outcomes until real usage data exists.
+If server-side email submission is desired, configure its provider separately. The current direct email and WhatsApp paths require no website provider credentials. A logged-in/manual LinkedIn check remains useful because LinkedIn returned HTTP 999 to automated Chrome access; the supplied destination is preserved exactly.

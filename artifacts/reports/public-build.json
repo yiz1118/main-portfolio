@@ -1,12 +1,12 @@
 {
-  "verifiedAt": "2026-09-28T04:31:04.690Z",
+  "verifiedAt": "2026-09-29T11:30:37.480Z",
   "checks": [
     {
       "route": "/",
       "status": 200
     },
     {
-      "route": "/projects",
+      "route": "/work",
       "status": 200
     },
     {
@@ -19,6 +19,30 @@
     },
     {
       "route": "/contact",
+      "status": 200
+    },
+    {
+      "route": "/work/vanta",
+      "status": 200
+    },
+    {
+      "route": "/work/nexa",
+      "status": 200
+    },
+    {
+      "route": "/work/form27",
+      "status": 200
+    },
+    {
+      "route": "/work/ember",
+      "status": 200
+    },
+    {
+      "route": "/work/atelier",
+      "status": 200
+    },
+    {
+      "route": "/work/sova",
       "status": 200
     },
     {
@@ -39,39 +63,25 @@
     }
   ],
   "robots": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://portfolio.example/sitemap.xml\n",
-  "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://portfolio.example/</loc>\n</url>\n<url>\n<loc>https://portfolio.example/projects</loc>\n</url>\n<url>\n<loc>https://portfolio.example/services</loc>\n</url>\n<url>\n<loc>https://portfolio.example/about</loc>\n</url>\n<url>\n<loc>https://portfolio.example/contact</loc>\n</url>\n</urlset>\n",
+  "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://portfolio.example/</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work</loc>\n</url>\n<url>\n<loc>https://portfolio.example/services</loc>\n</url>\n<url>\n<loc>https://portfolio.example/about</loc>\n</url>\n<url>\n<loc>https://portfolio.example/contact</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/vanta</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/nexa</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/form27</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/ember</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/atelier</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/sova</loc>\n</url>\n</urlset>\n",
   "lighthouse": [
     {
       "route": "/",
-      "performance": 97,
+      "performance": 94,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100
     },
     {
-      "route": "/projects",
-      "performance": 97,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 100
-    },
-    {
-      "route": "/services",
-      "performance": 97,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 100
-    },
-    {
-      "route": "/about",
-      "performance": 97,
+      "route": "/work/vanta",
+      "performance": 95,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100
     },
     {
       "route": "/contact",
-      "performance": 97,
+      "performance": 99,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100

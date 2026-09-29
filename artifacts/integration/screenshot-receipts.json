@@ -1,0 +1,510 @@
+{
+  "capturedAt": "2026-09-29T11:20:51.882Z",
+  "receipts": [
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/cover.webp",
+      "source": "https://vanta-automotive.vercel.app/",
+      "status": 200,
+      "title": "VANTA MOTORWORKS — Power, with purpose",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:11:45.630Z",
+      "bytes": 71852,
+      "sha256": "f520fee5a8e6a5c92d2253ea87e0ade6ae0f73ba10e14d7de1766aad2bcf99e4"
+    },
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/hero.webp",
+      "source": "https://vanta-automotive.vercel.app/",
+      "status": 200,
+      "title": "VANTA MOTORWORKS — Power, with purpose",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:47.595Z",
+      "bytes": 72774,
+      "sha256": "ee3eab3f00578583c286bd0c38c1dcfa00eb3b4585be24b08f72090d7671fed3"
+    },
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/desktop-01.webp",
+      "source": "https://vanta-automotive.vercel.app/builds",
+      "status": 200,
+      "title": "Builds — VANTA MOTORWORKS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:49.361Z",
+      "bytes": 38128,
+      "sha256": "0d106356ef98664ab6988836de56a1d8e31f758d5181736f28af2b163043e264"
+    },
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/desktop-02.webp",
+      "source": "https://vanta-automotive.vercel.app/engineering",
+      "status": 200,
+      "title": "Engineering — VANTA MOTORWORKS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:51.160Z",
+      "bytes": 52662,
+      "sha256": "3454564f752e4de48616170ffd0d44055465ae9942fe214a95d1ab3803797862"
+    },
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/detail-01.webp",
+      "source": "https://vanta-automotive.vercel.app/gallery",
+      "status": 200,
+      "title": "Gallery — VANTA MOTORWORKS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:53.219Z",
+      "bytes": 33336,
+      "sha256": "159d9bca02aae35a2a3c27e482d81df818838101e9fd3c9c9bfe73f382d520f5"
+    },
+    {
+      "project": "vanta",
+      "file": "/projects/vanta/mobile-01.webp",
+      "source": "https://vanta-automotive.vercel.app/",
+      "status": 200,
+      "title": "VANTA MOTORWORKS — Power, with purpose",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:11:55.163Z",
+      "bytes": 22868,
+      "sha256": "227d67b0f8fb42703ceb6427b49456c173266beb0ddb6b75d172850e0da8b4a6"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/cover.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/",
+      "status": 200,
+      "title": "NEXA — Find the thread in your team's knowledge",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:11:56.752Z",
+      "bytes": 61264,
+      "sha256": "517178045459b73f56f92eb28576d4e2e89d8ba58ae61ba608b979530ab5dfb2"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/hero.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/",
+      "status": 200,
+      "title": "NEXA — Find the thread in your team's knowledge",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:57.888Z",
+      "bytes": 61474,
+      "sha256": "f64e14eecfeaec0a932349c77a684e27f662a754923291655565308e4f08e24c"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/desktop-01.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/app",
+      "status": 200,
+      "title": "Workspace demo — NEXA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:11:59.370Z",
+      "bytes": 69440,
+      "sha256": "23f26da73a4efc1743d4759a26503b0e9a1c1f1dc776d9b235e847d6a5ced144"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/desktop-02.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/app/knowledge",
+      "status": 200,
+      "title": "Workspace demo — NEXA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:01.169Z",
+      "bytes": 64894,
+      "sha256": "db5e59f391b3bfbbf7458679365058c801a27f98edfbb2ad22e2dd7e11782181"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/detail-01.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/app/workflows",
+      "status": 200,
+      "title": "Workspace demo — NEXA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:02.632Z",
+      "bytes": 58410,
+      "sha256": "29fa9d313ebe5a7fab07797572179d004e9d32be805e04684264dbd1c8c4d35f"
+    },
+    {
+      "project": "nexa",
+      "file": "/projects/nexa/mobile-01.webp",
+      "source": "https://nexa-saas-alpha.vercel.app/app",
+      "status": 200,
+      "title": "Workspace demo — NEXA",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:12:03.666Z",
+      "bytes": 29918,
+      "sha256": "2c488609a15a7e46ff56866ad79ce56a194afd00936526c2b3009bcfbc83dbc6"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/cover.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/",
+      "status": 200,
+      "title": "FORM / 27 — OFF / AXIS",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:12:05.809Z",
+      "bytes": 81934,
+      "sha256": "e9df4fc289ffcf9f1c9ad12f5b3f189fa1dca3295f6deb92e4fc3fbbce3906af"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/hero.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/",
+      "status": 200,
+      "title": "FORM / 27 — OFF / AXIS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:07.456Z",
+      "bytes": 94764,
+      "sha256": "426ee10df5ce51c7d3face5065cbbf6b6aeb247436afc052134af72c3d87b1dc"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/desktop-01.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/shop",
+      "status": 200,
+      "title": "Shop the Collection | FORM / 27",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:09.146Z",
+      "bytes": 44218,
+      "sha256": "4f7c56f0d1c120b575248ee09ab8a66a69064dc116e551ac3ad52b554d9c9301"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/detail-01.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/campaign",
+      "status": 200,
+      "title": "Campaign — OFF / AXIS | FORM / 27",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:42.650Z",
+      "bytes": 84248,
+      "sha256": "de2ddb4852cf3918e87b2b4d52b1cbd1c39fc1c5bd3025c01f7e72efc7cbb1b6"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/mobile-01.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/products/axis-trouser",
+      "status": 200,
+      "title": "Axis Trouser | FORM / 27",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:12:43.780Z",
+      "bytes": 19552,
+      "sha256": "08d0b62743e8d87cc59405b9bd82318f8912edaa1de3e56ee99376348df03b03"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/cover.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/",
+      "status": 200,
+      "title": "EMBER | A Live-Fire Dining Concept",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:12:46.044Z",
+      "bytes": 82684,
+      "sha256": "6d21f9bf0eafd30578bdb61e55b099bce83a984ad9a3c6b8059ecf7048830a4f"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/hero.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/",
+      "status": 200,
+      "title": "EMBER | A Live-Fire Dining Concept",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:47.878Z",
+      "bytes": 82962,
+      "sha256": "d24eb4fc2a7afa133b0b7ea78cbc159add2a725bf35a3d55e45ad42e6bdb70ec"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/desktop-01.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/menu",
+      "status": 200,
+      "title": "The Menu | EMBER",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:49.857Z",
+      "bytes": 42456,
+      "sha256": "c765ca477f0d107a990cad0a0c92fac0d94f232c8f501c0a41a7e295f046e51d"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/desktop-02.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/reservation",
+      "status": 200,
+      "title": "Book a Table · Demo | EMBER",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:51.329Z",
+      "bytes": 53228,
+      "sha256": "b46f9cc55fcfc5c2cb57996892ed466feebcd1427624a89e6d5718313990b216"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/detail-01.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/gallery",
+      "status": 200,
+      "title": "Gallery | EMBER",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:53.043Z",
+      "bytes": 85140,
+      "sha256": "f023fb8772e043a89ae524a55c98b32bca1f0802546376baaee719dbd12c4a69"
+    },
+    {
+      "project": "ember",
+      "file": "/projects/ember/mobile-01.webp",
+      "source": "https://ember-restaurant-psi.vercel.app/",
+      "status": 200,
+      "title": "EMBER | A Live-Fire Dining Concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:12:54.819Z",
+      "bytes": 26826,
+      "sha256": "ae81c8a0a6313de0183c90977c96fa8c27a29beaa655fb94b2d799a43ea51532"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/cover.webp",
+      "source": "https://atelier-architecture-six.vercel.app/",
+      "status": 200,
+      "title": "ATELIER NORTH — Architecture & Interiors | Independent Concept Project",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:12:56.804Z",
+      "bytes": 88778,
+      "sha256": "63039897c19a9dea7de4c83e4dd581edfbd266e771ccb69ae9d7d9c08215ae57"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/hero.webp",
+      "source": "https://atelier-architecture-six.vercel.app/",
+      "status": 200,
+      "title": "ATELIER NORTH — Architecture & Interiors | Independent Concept Project",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:58.425Z",
+      "bytes": 101814,
+      "sha256": "05af84f28583c41c51595a927c89b5a110ba31790eab81cde1cdb939dd2b0b77"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/desktop-01.webp",
+      "source": "https://atelier-architecture-six.vercel.app/projects",
+      "status": 200,
+      "title": "Projects — ATELIER NORTH",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:12:59.897Z",
+      "bytes": 70908,
+      "sha256": "250f0ba87cb2033161294e9fafd293d36bcbb9d843aedf1a4ec6fdb37c9616d6"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/desktop-02.webp",
+      "source": "https://atelier-architecture-six.vercel.app/projects/coastal-house",
+      "status": 200,
+      "title": "Coastal House — Concept Study — ATELIER NORTH",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:01.886Z",
+      "bytes": 89510,
+      "sha256": "af765af5cf0ba8616ba465eb6e7715e2ae67d9713ef4e0130f66f875a7833410"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/detail-01.webp",
+      "source": "https://atelier-architecture-six.vercel.app/studio",
+      "status": 200,
+      "title": "Studio — ATELIER NORTH",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:03.711Z",
+      "bytes": 102138,
+      "sha256": "31681e9f56f20965b5b842bf97779c500bb52fa7ccd6282f48a66f8955249d9d"
+    },
+    {
+      "project": "atelier",
+      "file": "/projects/atelier/mobile-01.webp",
+      "source": "https://atelier-architecture-six.vercel.app/projects/coastal-house",
+      "status": 200,
+      "title": "Coastal House — Concept Study — ATELIER NORTH",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:13:05.067Z",
+      "bytes": 27576,
+      "sha256": "4f7a7e1500f7d529e99a89c615335c51704036579f8e22f953cfb11f876d01a8"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/cover.webp",
+      "source": "https://sova-skincare.vercel.app/",
+      "status": 200,
+      "title": "SOVA — Daily care, thoughtfully composed",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "capturedAt": "2026-09-29T11:13:07.023Z",
+      "bytes": 81052,
+      "sha256": "c0cf3ac0c19ff0f2dccd362843f9be4b0f0f8e1b124a3469392dfbe372510c61"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/hero.webp",
+      "source": "https://sova-skincare.vercel.app/",
+      "status": 200,
+      "title": "SOVA — Daily care, thoughtfully composed",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:08.490Z",
+      "bytes": 81264,
+      "sha256": "a5cf96656574d9989d6cb0d01fe0f4a6b274a92d7268543deb5e57899f4cc406"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/desktop-01.webp",
+      "source": "https://sova-skincare.vercel.app/shop",
+      "status": 200,
+      "title": "Shop the Collection | SOVA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:10.144Z",
+      "bytes": 71330,
+      "sha256": "5e2cf8cd37214608f85839ebfc37a166b39ffe8dab025a430c0751aec0b4f51a"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/desktop-02.webp",
+      "source": "https://sova-skincare.vercel.app/ingredients",
+      "status": 200,
+      "title": "Ingredient Library | SOVA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:12.067Z",
+      "bytes": 62208,
+      "sha256": "490d919c110277b4ee38cc3d437bfaffbb30ed276daae7fcbaa8e82680b3178f"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/detail-01.webp",
+      "source": "https://sova-skincare.vercel.app/routine",
+      "status": 200,
+      "title": "Find Your Routine | SOVA",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:13:13.496Z",
+      "bytes": 34646,
+      "sha256": "21ae11d4e977cc850c09eecc182238898b765960bc2d8a6475ae046154774844"
+    },
+    {
+      "project": "sova",
+      "file": "/projects/sova/mobile-01.webp",
+      "source": "https://sova-skincare.vercel.app/shop",
+      "status": 200,
+      "title": "Shop the Collection | SOVA",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-09-29T11:13:14.810Z",
+      "bytes": 27324,
+      "sha256": "5af9baae3343672a3b9a38a0b5a29839038ddf3bf3a4fa1fc34cc127f781188c"
+    },
+    {
+      "project": "form27",
+      "file": "/projects/form27/desktop-02.webp",
+      "source": "https://form27-fashion-k22d.vercel.app/products/axis-trouser",
+      "status": 200,
+      "title": "Axis Trouser | FORM / 27",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "capturedAt": "2026-09-29T11:20:51.714Z",
+      "bytes": 44046,
+      "sha256": "2a3ab8c456306144e60778f56aad4c3c471554dcf4e1ac6ce869d1ec70cebe0c"
+    }
+  ],
+  "failures": []
+}

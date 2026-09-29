@@ -1,0 +1,240 @@
+{
+  "verifiedAt": "2026-09-29T11:26:19.313Z",
+  "opened": [
+    {
+      "project": "vanta",
+      "kind": "live",
+      "url": "https://vanta-automotive.vercel.app/",
+      "finalUrl": "https://vanta-automotive.vercel.app/",
+      "status": 200,
+      "title": "VANTA MOTORWORKS — Power, with purpose"
+    },
+    {
+      "project": "vanta",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/vanta-automotive",
+      "finalUrl": "https://github.com/yiz1118/vanta-automotive",
+      "status": 200,
+      "title": "GitHub - yiz1118/vanta-automotive: Independent automotive performance concept website by Alson Chua, combining cinematic visuals, technical storytelling, vehicle presentation, and responsive interaction design. · GitHub"
+    },
+    {
+      "project": "nexa",
+      "kind": "live",
+      "url": "https://nexa-saas-alpha.vercel.app/",
+      "finalUrl": "https://nexa-saas-alpha.vercel.app/",
+      "status": 200,
+      "title": "NEXA — Find the thread in your team's knowledge"
+    },
+    {
+      "project": "nexa",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/nexa-saas",
+      "finalUrl": "https://github.com/yiz1118/nexa-saas",
+      "status": 200,
+      "title": "GitHub - yiz1118/nexa-saas: Independent AI SaaS and productivity platform concept by Alson Chua, combining a modern marketing website with dashboard, knowledge workspace, and product-focused UI. · GitHub"
+    },
+    {
+      "project": "form27",
+      "kind": "live",
+      "url": "https://form27-fashion-k22d.vercel.app/",
+      "finalUrl": "https://form27-fashion-k22d.vercel.app/",
+      "status": 200,
+      "title": "FORM / 27 — OFF / AXIS"
+    },
+    {
+      "project": "form27",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/form27-fashion",
+      "finalUrl": "https://github.com/yiz1118/form27-fashion",
+      "status": 200,
+      "title": "GitHub - yiz1118/form27-fashion: Independent fashion and clothing e-commerce concept website by Alson Chua, featuring bold editorial design, product discovery, shopping flows, and responsive commerce experiences. · GitHub"
+    },
+    {
+      "project": "ember",
+      "kind": "live",
+      "url": "https://ember-restaurant-psi.vercel.app/",
+      "finalUrl": "https://ember-restaurant-psi.vercel.app/",
+      "status": 200,
+      "title": "EMBER | A Live-Fire Dining Concept"
+    },
+    {
+      "project": "ember",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/ember-restaurant",
+      "finalUrl": "https://github.com/yiz1118/ember-restaurant",
+      "status": 200,
+      "title": "GitHub - yiz1118/ember-restaurant: Independent premium restaurant and fine dining concept website by Alson Chua, focused on editorial visuals, menu presentation, reservations, and responsive hospitality design. · GitHub"
+    },
+    {
+      "project": "atelier",
+      "kind": "live",
+      "url": "https://atelier-architecture-six.vercel.app/",
+      "finalUrl": "https://atelier-architecture-six.vercel.app/",
+      "status": 200,
+      "title": "ATELIER NORTH — Architecture & Interiors | Independent Concept Project"
+    },
+    {
+      "project": "atelier",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/atelier-architecture",
+      "finalUrl": "https://github.com/yiz1118/atelier-architecture",
+      "status": 200,
+      "title": "GitHub - yiz1118/atelier-architecture: Independent architecture and luxury property concept website by Alson Chua. · GitHub"
+    },
+    {
+      "project": "sova",
+      "kind": "live",
+      "url": "https://sova-skincare.vercel.app/",
+      "finalUrl": "https://sova-skincare.vercel.app/",
+      "status": 200,
+      "title": "SOVA — Daily care, thoughtfully composed"
+    },
+    {
+      "project": "sova",
+      "kind": "source",
+      "url": "https://github.com/yiz1118/sova-skincare",
+      "finalUrl": "https://github.com/yiz1118/sova-skincare",
+      "status": 200,
+      "title": "GitHub - yiz1118/sova-skincare: Independent skincare and wellness e-commerce concept website by Alson Chua, focused on premium product presentation, routines, ingredients, and responsive shopping UX. · GitHub"
+    }
+  ],
+  "checked": [
+    {
+      "url": "https://vanta-automotive.vercel.app/builds",
+      "status": 200,
+      "finalUrl": "https://vanta-automotive.vercel.app/builds"
+    },
+    {
+      "url": "https://vanta-automotive.vercel.app/engineering",
+      "status": 200,
+      "finalUrl": "https://vanta-automotive.vercel.app/engineering"
+    },
+    {
+      "url": "https://vanta-automotive.vercel.app/gallery",
+      "status": 200,
+      "finalUrl": "https://vanta-automotive.vercel.app/gallery"
+    },
+    {
+      "url": "https://vanta-automotive.vercel.app/enquiry",
+      "status": 200,
+      "finalUrl": "https://vanta-automotive.vercel.app/enquiry"
+    },
+    {
+      "url": "https://nexa-saas-alpha.vercel.app/product",
+      "status": 200,
+      "finalUrl": "https://nexa-saas-alpha.vercel.app/product"
+    },
+    {
+      "url": "https://nexa-saas-alpha.vercel.app/app/knowledge",
+      "status": 200,
+      "finalUrl": "https://nexa-saas-alpha.vercel.app/app/knowledge"
+    },
+    {
+      "url": "https://nexa-saas-alpha.vercel.app/app/workflows",
+      "status": 200,
+      "finalUrl": "https://nexa-saas-alpha.vercel.app/app/workflows"
+    },
+    {
+      "url": "https://nexa-saas-alpha.vercel.app/app/analytics",
+      "status": 200,
+      "finalUrl": "https://nexa-saas-alpha.vercel.app/app/analytics"
+    },
+    {
+      "url": "https://form27-fashion-k22d.vercel.app/shop",
+      "status": 200,
+      "finalUrl": "https://form27-fashion-k22d.vercel.app/shop"
+    },
+    {
+      "url": "https://form27-fashion-k22d.vercel.app/products/axis-trouser",
+      "status": 200,
+      "finalUrl": "https://form27-fashion-k22d.vercel.app/products/axis-trouser"
+    },
+    {
+      "url": "https://form27-fashion-k22d.vercel.app/lookbook",
+      "status": 200,
+      "finalUrl": "https://form27-fashion-k22d.vercel.app/lookbook"
+    },
+    {
+      "url": "https://form27-fashion-k22d.vercel.app/cart",
+      "status": 200,
+      "finalUrl": "https://form27-fashion-k22d.vercel.app/cart"
+    },
+    {
+      "url": "https://ember-restaurant-psi.vercel.app/story",
+      "status": 200,
+      "finalUrl": "https://ember-restaurant-psi.vercel.app/story"
+    },
+    {
+      "url": "https://ember-restaurant-psi.vercel.app/menu",
+      "status": 200,
+      "finalUrl": "https://ember-restaurant-psi.vercel.app/menu"
+    },
+    {
+      "url": "https://ember-restaurant-psi.vercel.app/gallery",
+      "status": 200,
+      "finalUrl": "https://ember-restaurant-psi.vercel.app/gallery"
+    },
+    {
+      "url": "https://ember-restaurant-psi.vercel.app/reservation",
+      "status": 200,
+      "finalUrl": "https://ember-restaurant-psi.vercel.app/reservation"
+    },
+    {
+      "url": "https://atelier-architecture-six.vercel.app/projects",
+      "status": 200,
+      "finalUrl": "https://atelier-architecture-six.vercel.app/projects"
+    },
+    {
+      "url": "https://atelier-architecture-six.vercel.app/projects/coastal-house",
+      "status": 200,
+      "finalUrl": "https://atelier-architecture-six.vercel.app/projects/coastal-house"
+    },
+    {
+      "url": "https://atelier-architecture-six.vercel.app/studio",
+      "status": 200,
+      "finalUrl": "https://atelier-architecture-six.vercel.app/studio"
+    },
+    {
+      "url": "https://atelier-architecture-six.vercel.app/journal",
+      "status": 200,
+      "finalUrl": "https://atelier-architecture-six.vercel.app/journal"
+    },
+    {
+      "url": "https://sova-skincare.vercel.app/shop",
+      "status": 200,
+      "finalUrl": "https://sova-skincare.vercel.app/shop"
+    },
+    {
+      "url": "https://sova-skincare.vercel.app/ingredients",
+      "status": 200,
+      "finalUrl": "https://sova-skincare.vercel.app/ingredients"
+    },
+    {
+      "url": "https://sova-skincare.vercel.app/routine",
+      "status": 200,
+      "finalUrl": "https://sova-skincare.vercel.app/routine"
+    },
+    {
+      "url": "https://github.com/yiz1118",
+      "status": 200,
+      "finalUrl": "https://github.com/yiz1118",
+      "title": "yiz1118 · GitHub"
+    },
+    {
+      "url": "https://www.linkedin.com/in/chua-yiz-063ba9272",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/in/chua-yiz-063ba9272",
+      "title": ""
+    },
+    {
+      "url": "https://wa.me/601158576386?text=Hi%20Alson%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20discussing%20a%20website%2Fapp%20project%20with%20you.",
+      "status": 200,
+      "finalUrl": "https://api.whatsapp.com/send/?phone=601158576386&text=Hi+Alson%2C+I+came+across+your+portfolio+and+I%27m+interested+in+discussing+a+website%2Fapp+project+with+you.&type=phone_number&app_absent=0",
+      "title": "Share on WhatsApp"
+    }
+  ],
+  "email": {
+    "href": "mailto:alsonchua18@gmail.com",
+    "verification": "URI only; no message sent"
+  }
+}

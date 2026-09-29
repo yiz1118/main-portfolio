@@ -26,7 +26,7 @@ export function Navigation() {
   }, [open]);
   const close = () => setOpen(false);
   return <header className="site-header"><div className="nav-container container">
-    <Link href="/" className="brand" aria-label={`${site.brand} home`} onClick={close}><span className="brand-mark" aria-hidden="true">i<span>.</span></span><span>{site.name.startsWith("[") ? site.brand : site.name}<small>Web & App Developer</small></span></Link>
+    <Link href="/" className="brand" aria-label={`${site.name} home`} onClick={close}><span className="brand-mark" aria-hidden="true">a<span>.</span></span><span>{site.name}<small>{site.title}</small></span></Link>
     <nav aria-label="Main navigation" className="desktop-nav">{navigation.map(item => <Link key={item.href} href={item.href} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}</Link>)}</nav>
     <Link href="/contact" className="nav-cta">Start a Project <ArrowUpRight size={16} aria-hidden="true" /></Link>
     <button ref={trigger} className="menu-toggle" aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? "Close navigation" : "Open navigation"} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>

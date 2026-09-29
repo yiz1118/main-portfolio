@@ -1,26 +1,20 @@
-# Implementation checklist
+# Six-project integration checklist
 
-- [x] Inspect empty workspace and implementation objective.
-- [x] Create product/architecture/design plan.
-- [x] Set up strict Next.js application and local fonts.
-- [x] Add typed site, project, service, and process data.
-- [x] Verify existing project evidence and record publication limitations.
-- [x] Build responsive shared navigation, footer, components, design tokens.
-- [x] Build home, projects, case studies, services, about, contact, and 404.
-- [x] Implement validated contact endpoint, Resend adapter, and copy fallback.
-- [x] Implement metadata, social images, robots, sitemap, draft separation.
-- [x] Add README, .env.example, content checklist, deployment instructions.
-- [x] Pass lint, typecheck, contact/content tests and production build.
-- [x] Verify all routes, contact states, SEO, links and image rendering in browser.
-- [x] Review all pages at 375/390/430/768/1024/1440px and fix issues.
-- [x] Measure accessibility, Lighthouse and reduced-motion behavior.
-- [x] Complete six-perspective review and document evidence/remaining content.
+- [x] Locate the moved main portfolio and preserve the independent repositories.
+- [x] Inspect the six deployed applications and source documentation.
+- [x] Centralize complete project content and exact supplied links in `data/projects.ts`.
+- [x] Set Alson's public identity, availability, location, and contact paths.
+- [x] Replace draft work with six ordered editorial homepage presentations.
+- [x] Add `/work` and six generated case routes with shared content structure.
+- [x] Add responsive screenshots, honest demo limits, source/live links, and cyclic next navigation.
+- [x] Capture all 36 images from deployed interfaces with provenance receipts.
+- [x] Add direct email and encoded WhatsApp brief actions alongside existing provider support.
+- [x] Update metadata, social image, favicon, redirects, and sitemap.
+- [x] Pass lint, typecheck, 18 unit tests, and production build.
+- [x] Pass 15 browser tests and 66 responsive page combinations.
+- [x] Check the direct-contact page at all six widths.
+- [x] Verify public-mode routes and measure homepage, case, and contact Lighthouse.
+- [x] Open all six live websites and source repositories; record LinkedIn's automated-access limitation.
+- [x] Finish integration, content, and verification handover documentation.
 
-## User content required before public launch
-
-- [NEEDS MY CONTENT] Public name, short signature/brand, email, GitHub, LinkedIn.
-- [NEEDS MY CONTENT] Portrait and availability (optional).
-- [NEEDS MY CONTENT] Confirm project type, personal contribution, dates and disclosure permissions.
-- [NEEDS MY CONTENT] Real screenshots with captions and optional demo/repository URLs.
-- [NEEDS MY CONTENT] Domain, verified email sender, recipient, Resend credentials, rate limiting.
-- [NEEDS MY CONTENT] Optional budget ranges, testimonials and client logos.
+Optional future work: portrait, authorized client work/social proof, provider delivery configuration, and deployment of these local changes.

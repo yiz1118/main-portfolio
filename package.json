@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "test:browser": "playwright test",
-    "test:public": "node tests/public-build.mjs",
+    "test:public": "node --import tsx tests/public-build.mjs",
+    "capture:projects": "node --import tsx scripts/capture-projects.mjs",
+    "verify:links": "node --import tsx scripts/verify-external-links.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {

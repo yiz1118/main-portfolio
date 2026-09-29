@@ -1,102 +1,87 @@
-# Freelance Portfolio
+# Alson Chua — Freelance Portfolio
 
-An English-language freelance portfolio for websites, applications, MVPs, dashboards, and AI integrations. Built to communicate services, show reviewable project work, and support project inquiries.
+A portfolio hub for Alson Chua, Independent Web & App Developer, based in Malaysia and working with clients worldwide. The homepage presents six independent concept projects; shared case studies explain their design, experience, responsive behavior, and implementation.
 
-## Stack and local setup
+The six applications remain separate repositories and deployments. This repository contains their metadata, editorial presentations, case-study content, and real screenshots. It does not import their application source.
 
-Next.js 16 App Router, React 19, strict TypeScript 6, Tailwind CSS 4, Lucide, and locally served Manrope. npm manages the lockfile. Node.js 24 LTS is recommended; Next.js requires Node >=20.9. TypeScript 6 and ESLint 9 are the latest compatible major versions for the installed Next.js lint plugins; their current dependency contracts exclude TypeScript 7 and ESLint 10.
+## Run locally
+
+The installed stack is Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, locally served Manrope, and Lucide with SVG social marks.
 
 ```powershell
 npm ci
 npm run dev
 ```
 
-Open http://localhost:3000. No secrets or environment variables are needed for the portfolio preview. Copy `.env.example` to `.env.local` only when configuring your own environment; never commit credentials.
+Open [localhost:3000](http://localhost:3000/). No credentials are required for the site or direct email/WhatsApp contact flow.
 
-| Script | Purpose |
-|---|---|
-| `npm run dev` | Local development |
+| Command | Purpose |
+| --- | --- |
 | `npm run lint` | ESLint |
-| `npm run typecheck` | Strict TypeScript check |
-| `npm test` | Contact and content tests |
-| `npm run build` | Production compilation and route generation |
+| `npm run typecheck` | TypeScript |
+| `npm test` | Contact, content, capture-receipt, and link-encoding checks |
+| `npm run build` | Optimized production build |
 | `npm start` | Serve the compiled build |
 | `npm run check` | Lint, types, tests, build |
-| `npm run test:browser` | Production-build browser checks; requires installed Chrome and a completed build |
-| `npm run test:public` | Build an isolated production fixture, verify draft exclusion/SEO, and measure Lighthouse |
+| `npm run test:browser -- --workers=1` | Eleven pages at six widths, navigation, links, contact states, accessibility |
+| `npm run test:public` | Isolated public-mode build, sitemap, metadata, redirects, and Lighthouse |
+| `npm run capture:projects` | Recapture the deployed projects with Chrome and save WebP assets and receipts |
+| `npm run verify:links` | Open all six live sites and repositories; check the case-page and contact destinations |
 
-Browser tests run a separate server on port 3101 with a **test-only mocked email provider**. They never send real inquiries. Screenshots go to `artifacts/screenshots/`; Playwright reports go to `playwright-report/`. Tests cover every page at 375/390/430/768/1024/1440px, keyboard navigation, links, contact states, SEO, reduced motion, and automated WCAG checks. Test-only provider loading is isolated in `tests/mock-email.mjs`; do not use that server command for normal hosting.
+Browser and capture scripts use installed Google Chrome. Browser tests start port 3101 with a test-only mocked email provider. Public-mode verification uses `.next-public/`, port 3102, and `https://portfolio.example` as a canonical test fixture. These tests send no real email or messages and do not deploy the site.
 
-`npm run test:public` uses `.next-public/` and port 3102, with `https://portfolio.example` as an isolated canonical fixture. It does not deploy to that domain. Reports are saved in `artifacts/lighthouse/` and `artifacts/reports/public-build.json`. That Windows verification script uses the installed Chrome executable. Keep ports 3101/3102 available. `PORTFOLIO_BUILD_DIR` is an optional build/test output override; normal development and deployment use `.next/`.
+## Content architecture
 
-Optional real testimonials and authorized logos can be added to `data/social-proof.ts`. Its component renders nothing when these arrays are empty.
+| Location | Responsibility |
+| --- | --- |
+| `data/projects.ts` | Ordered project records, live/source URLs, all case text, image paths, captions, and page paths |
+| `lib/site.ts` | Supplied public identity, contact destinations, encoded messages, canonical origin, and form options |
+| `app/page.tsx` | Homepage with all six large editorial presentations |
+| `app/work/page.tsx` | Filterable project collection |
+| `app/work/[slug]/page.tsx` | Shared case template and generated project metadata |
+| `components/project-card.tsx` | Editorial project presentation with project-specific composition |
+| `components/contact-links.tsx` | Email, WhatsApp, LinkedIn, and optional secondary GitHub links |
+| `public/projects/{slug}/` | Six actual deployed-interface captures per project |
+| `scripts/` | Screenshot capture and external-link verification |
+| `artifacts/integration/` | Capture receipts, link receipts, responsive screenshots, and visual review |
 
-## Architecture
+Each record is labeled **Independent Concept Project**, year **2026**. Roles, services, stack, objectives, design decisions, page features, responsive behavior, implementation, skills, and demonstration limitations are explicit. No client results, real transactions, testimonials, or awards are implied.
 
-```text
-app/                  Pages, route handler, metadata, robots, sitemap, social image
-components/           Shared navigation, footer, sections, work presentation, form
-data/projects.ts      Typed case-study content
-data/services.ts      Services and development process
-lib/site.ts           Identity, contact links, budget options, publication settings
-lib/contact.ts        Shared inquiry validation and copyable summary
-lib/contact-handler.ts Request handling and delivery boundary
-lib/delivery.ts       Provider interface and server-side Resend adapter
-lib/analytics.ts      Optional event adapter; disabled by default
-public/projects/      Local presentation illustrations and future screenshots
-tests/                Focused unit and browser acceptance tests
-docs/                 Content evidence, launch checklist and verification report
+Routes, in order: `/work/vanta`, `/work/nexa`, `/work/form27`, `/work/ember`, `/work/atelier`, `/work/sova`. Next-project navigation cycles through the same order. `/projects` redirects permanently to `/work`; matching new slugs redirect to their cases. Retired draft cases return 404.
+
+## Image authoring
+
+Each project directory contains `cover.webp`, `hero.webp`, `desktop-01.webp`, `desktop-02.webp`, `detail-01.webp`, and `mobile-01.webp`. These are screenshots of the actual deployed applications, including their own concept imagery. They are not generated mockups of interfaces.
+
+`artifacts/integration/screenshot-receipts.json` records source URL, HTTP status, page title, viewport, capture time, byte size, and SHA-256. Tests compare every displayed file to its receipt. Recapture a specific missing or changed image with:
+
+```powershell
+npm run capture:projects -- form27 --image=desktop-02
 ```
 
-The content pages are server rendered, with small client components for navigation, filters, form and optional analytics. There is no CMS, authentication, inquiry database, or tracking dependency. API credentials are used only on the server. Private evidence paths remain in internal documentation, never project data.
+The script uses project URLs and page paths from the central data, preserves receipts for unaffected images, and only records a successful capture after visible images load. Commit the image and its updated receipt together when publishing changes.
 
-## Identity and project authoring
+## Contact behavior
 
-Edit `lib/site.ts` to supply your public name, brand, email, LinkedIn, GitHub, optional portrait, and availability. Replace markers listed in `docs/CONTENT.md`. Blank social links and unavailable demos are omitted. Do not populate them with `#` or invented URLs.
+The primary CTA is **Start a Project**. Email, WhatsApp, and LinkedIn appear on the contact page, in shared CTAs, and in the footer. WhatsApp uses the exact supplied introductory message, URL-encoded. The project-brief form can open a mail client, prepare a WhatsApp message containing the entered brief, or copy the brief. Opening a prepared message does not send it automatically.
 
-Add a typed entry to `data/projects.ts`. Every case study supports overview, problem, goal, personal role, solution, features, user flow, architecture, process, challenges/resolutions, captioned screenshots, technologies, results, limitations, and optional demo/repository links. Place local images in `public/projects/`, then set their image paths and honest alt text. Use `kind: "screenshot"` only for actual product captures. Replace illustration captions before publishing actual imagery.
+The existing server-side Resend adapter remains optional. When configured, the form posts to `/api/contact` and reports success only after an acceptance receipt. Shared validation, request limits, origin checks, honeypot, idempotency, timeout, and error preservation remain in place. Without configuration the endpoint returns 503, while direct contact continues to work. No inquiry database or automatic reply is implemented.
 
-`publicationStatus` is independent from `projectType` and `developmentStatus`:
+## Environment and publication
 
-- `draft`: visible in preview, inaccessible and absent from listings in production.
-- `published`: visible in both. Confirm attribution, classification, images and claims before switching.
-- `projectType`: client, personal, concept, university, or experimental. Draft candidates currently omit it pending your confirmation.
+| Variable | Purpose |
+| --- | --- |
+| `SITE_URL` | Optional HTTPS canonical override; defaults to the supplied main portfolio URL |
+| `SITE_MODE` | `production` enables public indexing eligibility; default local mode remains preview |
+| `SITE_INDEXING` | `true` enables indexing in production only |
+| `RESEND_API_KEY` | Optional server-only provider key |
+| `CONTACT_FROM` | Optional verified provider sender |
+| `CONTACT_TO` | Optional provider recipient |
+| `CONTACT_RATE_LIMIT_READY` | Must be `true` for provider delivery in production |
+| `PORTFOLIO_BUILD_DIR` | Optional build-directory override used by public-mode tests |
 
-All three initial projects are drafts. Therefore a production-mode build currently shows a polished work-preparation message instead of unconfirmed case studies. Adding draft case studies does not create actual public project proof; this is an explicit content gate.
+All six cases are visible in both local and production builds. Preview builds remain noindex and have an empty sitemap. An indexing-enabled production build lists all six cases with canonical `/work/` routes. Personal contact links work independently of provider credentials.
 
-## Environment variables
+The implementation is prepared for the existing Vercel project. Deployment and server-delivery configuration are separate from local verification. No commit, push, deployment, provider configuration, or real message send was performed for this integration.
 
-| Variable | Use |
-|---|---|
-| `SITE_URL` | Real HTTPS site origin; enables correct canonicals and social URLs |
-| `SITE_MODE` | `preview` (default) or `production`; determines draft visibility at build time |
-| `SITE_INDEXING` | `true` enables indexing only in production with a real HTTPS origin |
-| `RESEND_API_KEY` | Server-only email provider credential |
-| `CONTACT_FROM` | Sender on a domain verified in Resend |
-| `CONTACT_TO` | Inquiry recipient |
-| `CONTACT_RATE_LIMIT_READY` | `true` confirms deployment rate limiting; required for production delivery |
-
-Vercel's `VERCEL_ENV=production` always hides drafts, even if `SITE_MODE=preview`. Publication changes require a rebuild. A preview build uses localhost as the social-image metadata base if no domain is configured; it does not generate a localhost canonical. Previews use noindex, disallow crawling, and an empty sitemap. A production build with indexing disabled is also noindex. Drafts never enter the public sitemap.
-
-## Contact delivery
-
-Without email configuration, the page explains that submission is unavailable and provides a copyable project brief. No success message is simulated. With configuration, the form posts to `/api/contact`. Shared validation checks required fields, lengths, options, email and a honeypot. The handler rejects foreign origins, non-JSON requests and bodies above 16KiB.
-
-The provider uses a fixed sender, visitor Reply-To, plain-text content, a ten-second timeout and a stable idempotency key. Success means the provider returned an acceptance receipt; it does not prove inbox delivery. Input survives errors, and neither secrets nor inquiry bodies are logged. A future provider can implement `InquiryDelivery` without changing the form. No auto-reply emails are sent.
-
-## Vercel deployment
-
-1. Supply verified identity, contact details, screenshot assets and at least the intended published case studies. Review `docs/CONTENT.md`.
-2. Import this folder as a Next.js project in Vercel, with `npm ci` installation and `npm run build`. Select Node.js 24.
-3. Configure your actual domain and set `SITE_URL=https://your-real-domain` for production. Keep preview deployments unindexed.
-4. Verify a sender domain in Resend; set `RESEND_API_KEY`, `CONTACT_FROM`, and `CONTACT_TO` as server-side environment variables.
-5. In Vercel Firewall, configure a rate-limit rule for POST requests whose path is `/api/contact` (initial policy: five requests per minute per source IP). Validate this rule, then set `CONTACT_RATE_LIMIT_READY=true`. If the chosen hosting plan cannot enforce it, leave delivery disabled until a real limiting mechanism is in place.
-6. Deploy a preview, verify navigation, responsive layouts, real contact submission and receipt in the intended inbox. The local test suite only proves mocked provider behavior.
-7. For production, set `SITE_MODE=production`; enable `SITE_INDEXING=true` after reviewing real public content. Deploy again and verify robots, sitemap, canonicals, social image and draft exclusions.
-8. Run a live review after domain assignment. No deployment, domain purchase, provider account setup, or real email send was performed by the local implementation.
-
-## Performance and review
-
-Local fonts, server-rendered content, CSS-only motion and local project visuals keep the page light. Next Image supports raster screenshot optimization when real screenshots are supplied. Current SVG illustrations are served directly. Reduced motion is supported.
-
-See `docs/VERIFICATION.md` for measured checks and their limits. Lighthouse is laboratory evidence; field Core Web Vitals need real traffic. Before publication, review the site as a founder, small-business owner, agency partner, engineer, designer, and mobile visitor.
+See [the integration report](docs/INTEGRATION.md), [verification evidence](docs/VERIFICATION.md), and [content status](docs/CONTENT.md).
