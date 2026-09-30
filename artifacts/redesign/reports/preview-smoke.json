@@ -1,0 +1,94 @@
+{
+  "verifiedAt": "2026-09-30T10:27:30.634Z",
+  "metadata": [
+    {
+      "route": "/",
+      "title": "Alson Chua — Independent Web & App Developer",
+      "description": "Websites, web apps, e-commerce, MVPs, dashboards and AI products. Explore six independent concept projects by Alson Chua. Malaysia, working worldwide.",
+      "og": "https://alson-portfolio-nine.vercel.app/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work",
+      "title": "Work & Case Studies | Alson Chua",
+      "description": "Six independent concept projects by Alson Chua, spanning automotive, SaaS, fashion, hospitality, architecture and skincare. Explore the design and development decisions.",
+      "og": "https://alson-portfolio-nine.vercel.app/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/services",
+      "title": "Websites, Applications & MVP Development | Alson Chua",
+      "description": "Business websites, custom web applications, startup MVPs, AI integrations and maintenance for founders, businesses and agencies.",
+      "og": "https://alson-portfolio-nine.vercel.app/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/about",
+      "title": "About Alson Chua | Alson Chua",
+      "description": "Alson Chua, an independent web and app developer based in Malaysia. Game-development roots, product design, frontend development, and delivery for teams worldwide.",
+      "og": "https://alson-portfolio-nine.vercel.app/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/contact",
+      "title": "Start a Project | Alson Chua",
+      "description": "Discuss your website, web app, e-commerce, MVP or AI product with Alson Chua. Contact by email, WhatsApp or LinkedIn. Based in Malaysia, working worldwide.",
+      "og": "https://alson-portfolio-nine.vercel.app/opengraph-image",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/vanta",
+      "title": "VANTA Motorworks — Case Study | Alson Chua",
+      "description": "An automotive concept bringing vehicle presentation, engineering detail, and a focused enquiry journey into one precise visual system.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/vanta/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/nexa",
+      "title": "NEXA — Case Study | Alson Chua",
+      "description": "An AI-focused SaaS concept combining product marketing with an interactive workspace for documents, sample answers, and workflow building.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/nexa/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/form27",
+      "title": "FORM / 27 — Case Study | Alson Chua",
+      "description": "A bold store concept where campaign imagery, garment detail, and practical shopping controls share a distinctive visual language.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/form27/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/ember",
+      "title": "EMBER — Case Study | Alson Chua",
+      "description": "A warm editorial restaurant website connecting food, the dining room, a readable menu, and a considered reservation demonstration.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/ember/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/atelier",
+      "title": "ATELIER NORTH — Case Study | Alson Chua",
+      "description": "A quiet studio concept using large imagery, measured typography, and an editorial grid to turn architectural projects into considered stories.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/atelier/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/work/sova",
+      "title": "SOVA — Case Study | Alson Chua",
+      "description": "A skincare concept combining product discovery, ingredient education, and explainable routine guidance with a soft, practical shopping interface.",
+      "og": "https://alson-portfolio-nine.vercel.app/projects/sova/cover.webp",
+      "twitter": "summary_large_image",
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "contact": "Direct email and WhatsApp links, encoded entered brief, six viewport checks and clipboard verified. API remains unconfigured (503); no email or message sent."
+}

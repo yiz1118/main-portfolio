@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-09-30T10:27:18.070Z",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/work",
+      "status": 200
+    },
+    {
+      "route": "/services",
+      "status": 200
+    },
+    {
+      "route": "/about",
+      "status": 200
+    },
+    {
+      "route": "/contact",
+      "status": 200
+    },
+    {
+      "route": "/work/vanta",
+      "status": 200
+    },
+    {
+      "route": "/work/nexa",
+      "status": 200
+    },
+    {
+      "route": "/work/form27",
+      "status": 200
+    },
+    {
+      "route": "/work/ember",
+      "status": 200
+    },
+    {
+      "route": "/work/atelier",
+      "status": 200
+    },
+    {
+      "route": "/work/sova",
+      "status": 200
+    },
+    {
+      "route": "/projects/labellens",
+      "status": 404
+    },
+    {
+      "route": "/projects/chuangxu-planning-agent",
+      "status": 404
+    },
+    {
+      "route": "/projects/rongcheng-city-explorer",
+      "status": 404
+    },
+    {
+      "route": "/projects/unknown",
+      "status": 404
+    }
+  ],
+  "robots": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://portfolio.example/sitemap.xml\n",
+  "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://portfolio.example/</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work</loc>\n</url>\n<url>\n<loc>https://portfolio.example/services</loc>\n</url>\n<url>\n<loc>https://portfolio.example/about</loc>\n</url>\n<url>\n<loc>https://portfolio.example/contact</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/vanta</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/nexa</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/form27</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/ember</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/atelier</loc>\n</url>\n<url>\n<loc>https://portfolio.example/work/sova</loc>\n</url>\n</urlset>\n",
+  "lighthouse": [
+    {
+      "route": "/",
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/work/vanta",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    {
+      "route": "/contact",
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  ],
+  "domain": "Isolated fixture https://portfolio.example, not a deployment"
+}

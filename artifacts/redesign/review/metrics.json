@@ -1,0 +1,278 @@
+[
+  {
+    "width": 375,
+    "route": "/",
+    "words": 381,
+    "firstImageTop": 448.5625,
+    "overflow": false,
+    "height": 6647
+  },
+  {
+    "width": 375,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 665.84375,
+    "overflow": false,
+    "height": 4318
+  },
+  {
+    "width": 375,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 3026
+  },
+  {
+    "width": 375,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 2023.140625,
+    "overflow": false,
+    "height": 3763
+  },
+  {
+    "width": 375,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 2438
+  },
+  {
+    "width": 375,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 407.09375,
+    "overflow": false,
+    "height": 7278
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "words": 381,
+    "firstImageTop": 452.78125,
+    "overflow": false,
+    "height": 6721
+  },
+  {
+    "width": 390,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 665.84375,
+    "overflow": false,
+    "height": 4378
+  },
+  {
+    "width": 390,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 3026
+  },
+  {
+    "width": 390,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 1999.390625,
+    "overflow": false,
+    "height": 3769
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 2438
+  },
+  {
+    "width": 390,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 407.09375,
+    "overflow": false,
+    "height": 7260
+  },
+  {
+    "width": 430,
+    "route": "/",
+    "words": 381,
+    "firstImageTop": 464,
+    "overflow": false,
+    "height": 6870
+  },
+  {
+    "width": 430,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 614.84375,
+    "overflow": false,
+    "height": 4488
+  },
+  {
+    "width": 430,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 3009
+  },
+  {
+    "width": 430,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 1895.5625,
+    "overflow": false,
+    "height": 3746
+  },
+  {
+    "width": 430,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 2397
+  },
+  {
+    "width": 430,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 407.09375,
+    "overflow": false,
+    "height": 7251
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "words": 381,
+    "firstImageTop": 162,
+    "overflow": false,
+    "height": 6871
+  },
+  {
+    "width": 768,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 618.203125,
+    "overflow": false,
+    "height": 5069
+  },
+  {
+    "width": 768,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 2333
+  },
+  {
+    "width": 768,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 1324.09375,
+    "overflow": false,
+    "height": 2206
+  },
+  {
+    "width": 768,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 1637
+  },
+  {
+    "width": 768,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 398,
+    "overflow": false,
+    "height": 6496
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "words": 383,
+    "firstImageTop": 182,
+    "overflow": false,
+    "height": 7768
+  },
+  {
+    "width": 1024,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 647.890625,
+    "overflow": false,
+    "height": 5923
+  },
+  {
+    "width": 1024,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 2384
+  },
+  {
+    "width": 1024,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 1326.125,
+    "overflow": false,
+    "height": 2312
+  },
+  {
+    "width": 1024,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 1650
+  },
+  {
+    "width": 1024,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 398,
+    "overflow": false,
+    "height": 6410
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "words": 383,
+    "firstImageTop": 182,
+    "overflow": false,
+    "height": 9470
+  },
+  {
+    "width": 1440,
+    "route": "/work",
+    "words": 217,
+    "firstImageTop": 696.28125,
+    "overflow": false,
+    "height": 7435
+  },
+  {
+    "width": 1440,
+    "route": "/services",
+    "words": 215,
+    "overflow": false,
+    "height": 2467
+  },
+  {
+    "width": 1440,
+    "route": "/about",
+    "words": 213,
+    "firstImageTop": 1360.265625,
+    "overflow": false,
+    "height": 2520
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "words": 174,
+    "overflow": false,
+    "height": 1595
+  },
+  {
+    "width": 1440,
+    "route": "/work/nexa",
+    "words": 484,
+    "firstImageTop": 406.625,
+    "overflow": false,
+    "height": 7255
+  }
+]

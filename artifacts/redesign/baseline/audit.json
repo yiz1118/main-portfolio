@@ -1,0 +1,244 @@
+[
+  {
+    "width": 375,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1216.4375,
+    "overflow": false,
+    "height": 8146,
+    "headings": [
+      "I build websites and apps that turn ideas into real products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1132.9375,
+    "overflow": false,
+    "height": 8053,
+    "headings": [
+      "I build websites and apps that turn ideas into real products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/work",
+    "words": 391,
+    "firstImageTop": 835.359375,
+    "overflow": false,
+    "height": 5413,
+    "headings": [
+      "Different industries. The same care in building.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/services",
+    "words": 398,
+    "overflow": false,
+    "height": 4105,
+    "headings": [
+      "Your idea. A working product.",
+      "Business websites",
+      "Web applications",
+      "MVP development",
+      "AI integrations",
+      "Maintenance & improvements",
+      "From the first conversation\nto the next version.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/about",
+    "words": 318,
+    "overflow": false,
+    "height": 3349,
+    "headings": [
+      "Good software starts with understanding.",
+      "Modern tools.\nPersonal responsibility.",
+      "Alson Chua",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "words": 204,
+    "overflow": false,
+    "height": 2665,
+    "headings": [
+      "What are you thinking of building?",
+      "Start with the idea.",
+      "Tell me about your project."
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/work/nexa",
+    "words": 729,
+    "firstImageTop": 653.125,
+    "overflow": false,
+    "height": 8297,
+    "headings": [
+      "NEXA",
+      "A concept with a clear purpose.",
+      "The problem to design for.",
+      "A visual language for the industry.",
+      "From first impression to next step.",
+      "The same intent, on a smaller screen.",
+      "Design decisions, carried into code.",
+      "The capabilities behind the concept.",
+      "Have a similar project?\nLet’s talk."
+    ]
+  },
+  {
+    "width": 430,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1106.34375,
+    "overflow": false,
+    "height": 8017,
+    "headings": [
+      "I build websites and apps that turn ideas into real products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1107.796875,
+    "overflow": false,
+    "height": 8167,
+    "headings": [
+      "I build websites and apps\nthat turn ideas into\nreal products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1068.578125,
+    "overflow": false,
+    "height": 8454,
+    "headings": [
+      "I build websites and apps\nthat turn ideas into\nreal products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "words": 664,
+    "firstImageTop": 1166.1875,
+    "overflow": false,
+    "height": 9551,
+    "headings": [
+      "I build websites and apps\nthat turn ideas into\nreal products.",
+      "Six industries.\nSix distinct experiences.",
+      "Built for what\nyour business needs.",
+      "From the first conversation\nto the next version.",
+      "A developer who thinks\nabout the whole product.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/work",
+    "words": 391,
+    "firstImageTop": 787.625,
+    "overflow": false,
+    "height": 7173,
+    "headings": [
+      "Different industries. The same care in building.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/services",
+    "words": 398,
+    "overflow": false,
+    "height": 3200,
+    "headings": [
+      "Your idea. A working product.",
+      "Business websites",
+      "Web applications",
+      "MVP development",
+      "AI integrations",
+      "Maintenance & improvements",
+      "From the first conversation\nto the next version.",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/about",
+    "words": 318,
+    "overflow": false,
+    "height": 2220,
+    "headings": [
+      "Good software starts with understanding.",
+      "Modern tools.\nPersonal responsibility.",
+      "Alson Chua",
+      "Your next idea.\nA clear path forward."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "words": 204,
+    "overflow": false,
+    "height": 1760,
+    "headings": [
+      "What are you thinking of building?",
+      "Start with the idea.",
+      "Tell me about your project."
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/work/nexa",
+    "words": 729,
+    "firstImageTop": 623.15625,
+    "overflow": false,
+    "height": 7550,
+    "headings": [
+      "NEXA",
+      "A concept with a clear purpose.",
+      "The problem to design for.",
+      "A visual language for the industry.",
+      "From first impression to next step.",
+      "The same intent, on a smaller screen.",
+      "Design decisions, carried into code.",
+      "The capabilities behind the concept.",
+      "Have a similar project?\nLet’s talk."
+    ]
+  }
+]

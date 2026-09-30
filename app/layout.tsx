@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { PageView } from "@/components/page-view";
+import { MotionObserver } from "@/components/motion-observer";
 import { publicationConfig, site } from "@/lib/site";
 import "./globals.css";
 
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", images: ["/opengraph-image"] },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body><PageView /><a href="#main-content" className="skip-link">Skip to content</a><Navigation /><main id="main-content" tabIndex={-1}>{children}</main><Footer /></body></html>;
+  return <html lang="en"><body><PageView /><MotionObserver /><a href="#main-content" className="skip-link">Skip to content</a><Navigation /><main id="main-content" tabIndex={-1}>{children}</main><Footer /></body></html>;
 }

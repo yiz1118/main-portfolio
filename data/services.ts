@@ -6,10 +6,18 @@ export const services = [
   { number: "05", title: "Maintenance & improvements", short: "Make your existing product work better.", description: "For teams with an existing website or application that needs fixes, new features, or a better user experience.", deliverables: ["Bug investigation & fixes", "Performance & UI improvements", "Feature development & technical handover"], outcome: "Practical improvements based on the current product and its users." },
 ];
 export const processSteps = [
-  { title: "Discover", description: "Understand your business, users, and the problem worth solving." },
-  { title: "Plan", description: "Define scope, user flows, architecture, and a realistic delivery plan." },
-  { title: "Build", description: "Develop in manageable milestones with clear progress updates." },
-  { title: "Test", description: "Check features, mobile layouts, performance, and edge cases." },
-  { title: "Launch", description: "Deploy, verify the live product, and prepare a clear handover." },
-  { title: "Improve", description: "Use feedback to refine the product and plan the next useful step." },
+  { title: "Discover", description: "Goals, users, scope." },
+  { title: "Design", description: "Structure, flows, visuals." },
+  { title: "Build", description: "Working milestones." },
+  { title: "Test", description: "Devices, features, details." },
+  { title: "Launch", description: "Deploy, verify, hand over." },
+];
+
+export const capabilities = [
+  { title: "Websites", detail: "A clear home for your brand.", href: "/services#service-01" },
+  { title: "E-Commerce", detail: "Discovery, selection, checkout.", href: "/services#commerce" },
+  { title: "Web applications", detail: "Tools built around your workflow.", href: "/services#service-02" },
+  { title: "SaaS / MVPs", detail: "A first product you can test.", href: "/services#service-03" },
+  { title: "Dashboards", detail: "Make complex information usable.", href: "/services#service-02" },
+  { title: "AI integrations", detail: "Connect AI to a specific task.", href: "/services#service-04" },
 ];

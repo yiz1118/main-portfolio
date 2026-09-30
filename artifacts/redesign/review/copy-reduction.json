@@ -1,0 +1,41 @@
+{
+  "measurement": "Central project explanatory fields: summary, description, overview, brief, objective, responsive, and all design/experience/implementation descriptions. Required labels and actions are excluded.",
+  "cases": [
+    {
+      "slug": "vanta",
+      "before": 330,
+      "after": 173,
+      "reductionPercent": 47.6
+    },
+    {
+      "slug": "nexa",
+      "before": 346,
+      "after": 180,
+      "reductionPercent": 48
+    },
+    {
+      "slug": "form27",
+      "before": 344,
+      "after": 181,
+      "reductionPercent": 47.4
+    },
+    {
+      "slug": "ember",
+      "before": 330,
+      "after": 187,
+      "reductionPercent": 43.3
+    },
+    {
+      "slug": "atelier",
+      "before": 336,
+      "after": 187,
+      "reductionPercent": 44.3
+    },
+    {
+      "slug": "sova",
+      "before": 349,
+      "after": 188,
+      "reductionPercent": 46.1
+    }
+  ]
+}

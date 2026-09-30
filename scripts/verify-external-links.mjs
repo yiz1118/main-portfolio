@@ -4,6 +4,7 @@ import { projects } from "../data/projects.ts";
 import { site, whatsappUrl } from "../lib/site.ts";
 
 const browser = await chromium.launch({ channel: "chrome", headless: true });
+const artifacts = process.env.PORTFOLIO_QA_DIR || "artifacts/integration";
 const opened = [];
 const checked = [];
 const context = await browser.newContext();
@@ -35,7 +36,7 @@ try {
   }
 } finally {
   await browser.close();
-  await mkdir("artifacts/integration", { recursive: true });
-  await writeFile("artifacts/integration/external-links.json", JSON.stringify({ verifiedAt: new Date().toISOString(), opened, checked, email: { href: `mailto:${site.email}`, verification: "URI only; no message sent" } }, null, 2));
+  await mkdir(artifacts, { recursive: true });
+  await writeFile(`${artifacts}/external-links.json`, JSON.stringify({ verifiedAt: new Date().toISOString(), opened, checked, email: { href: `mailto:${site.email}`, verification: "URI only; no message sent" } }, null, 2));
 }
 if (opened.some(result => !result.status || result.status >= 400) || checked.some(result => !result.status || result.status >= 400)) process.exitCode = 1;

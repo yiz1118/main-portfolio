@@ -11,6 +11,7 @@ for (const width of widths) {
   test(`all eleven pages render with loaded images and no overflow at ${width}px`, async ({ page }) => {
     test.setTimeout(120000);
     await page.setViewportSize({ width, height: 950 });
+    await page.emulateMedia({ reducedMotion: "reduce" });
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
     for (const route of routes) {
@@ -23,8 +24,17 @@ for (const width of widths) {
       await expect(page.locator("body")).not.toContainText(/NEEDS MY CONTENT|Contact details pending|Draft case study|Interface illustration|case studies are on the way/i);
       await page.locator("img").evaluateAll(images => images.forEach(image => (image as HTMLImageElement).loading = "eager"));
       await expect.poll(() => page.locator("img").evaluateAll(images => images.every(image => (image as HTMLImageElement).complete && (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
-      mkdirSync("artifacts/integration/responsive", { recursive: true });
-      await page.screenshot({ path: `artifacts/integration/responsive/${route === "/" ? "home" : route.slice(1).replaceAll("/", "-")}-${width}.png`, fullPage: true });
+      // Loaded off-screen images may not yet be painted in a full-page Chrome capture.
+      for (const image of await page.locator("img").all()) {
+        if (await image.isVisible()) {
+          await image.scrollIntoViewIfNeeded();
+          await image.evaluate(element => (element as HTMLImageElement).decode());
+          await page.evaluate(() => new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
+        }
+      }
+      await page.evaluate(() => window.scrollTo(0, 0));
+      mkdirSync("artifacts/redesign/responsive", { recursive: true });
+      await page.screenshot({ path: `artifacts/redesign/responsive/${route === "/" ? "home" : route.slice(1).replaceAll("/", "-")}-${width}.png`, fullPage: true });
     }
     expect(errors).toEqual([]);
   });
@@ -131,9 +141,58 @@ test("copy fallback preserves entered details and reduced motion suppresses tran
 
 test("all page types pass automated accessibility checks", async ({ page }) => {
   test.setTimeout(120000);
+  await page.emulateMedia({ reducedMotion: "reduce" });
   for (const route of routes) {
     await page.goto(route);
     const result = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze();
     expect(result.violations, route).toEqual([]);
   }
+});
+
+test("hero shows real work immediately and all six previews support keyboard selection", async ({ page }) => {
+  for (const width of [375, 390, 430, 768, 1024, 1440]) {
+    await page.setViewportSize({ width, height: 844 }); await page.goto("/");
+    const image = page.locator(".hero-preview img");
+    const rect = await image.boundingBox();
+    expect(rect!.y, `first visual at ${width}`).toBeLessThan(width < 768 ? 600 : 400);
+    expect(rect!.width).toBeGreaterThan(width < 768 ? 290 : 300);
+    for (const project of projects) {
+      const button = page.getByRole("button", { name: `Preview ${project.title}`, exact: true });
+      await button.focus(); await page.keyboard.press("Enter");
+      await expect(button).toHaveAttribute("aria-pressed", "true");
+      await expect(page.locator(".hero-preview")).toHaveAttribute("href", `/work/${project.slug}`);
+      await expect(image).toHaveAttribute("alt", project.coverAlt);
+      await expect(page.locator(".hero-preview")).not.toHaveClass(/preview-enter/);
+    }
+  }
+});
+
+test("scroll reveals complete once, reduced motion stays visible, and hover remains restrained", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 950 });
+  await page.emulateMedia({ reducedMotion: "no-preference" }); await page.goto("/");
+  const visual = page.locator("#project-vanta .presentation-visuals");
+  await expect(visual).toHaveClass(/motion-pending/);
+  await visual.scrollIntoViewIfNeeded(); await expect(visual).not.toHaveClass(/motion-pending/);
+  await expect.poll(() => visual.evaluate(element => getComputedStyle(element).opacity)).toBe("1");
+  await page.evaluate(() => window.scrollTo(0, 0)); await expect(visual).not.toHaveClass(/motion-pending/);
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await expect(page.locator(".motion-pending")).toHaveCount(0);
+  const cover = page.locator("#project-vanta .presentation-cover");
+  await cover.hover();
+  expect(await cover.locator("img").evaluate(element => getComputedStyle(element).transform)).toBe("none");
+  await page.emulateMedia({ reducedMotion: "no-preference" });
+  await cover.hover();
+  await expect.poll(() => cover.locator("img").evaluate(element => getComputedStyle(element).transform)).toBe("matrix(1.015, 0, 0, 1.015, 0, 0)");
+  await expect(page.locator(".site-header")).toHaveClass(/header-scrolled/);
+});
+
+test("touch preview controls work without hover or hidden mobile overlays", async ({ browser }) => {
+  const context = await browser.newContext({ baseURL: test.info().project.use.baseURL, viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const page = await context.newPage(); await page.goto("/");
+  await page.getByRole("button", { name: "Preview NEXA", exact: true }).tap();
+  await expect(page.locator(".hero-preview")).toHaveAttribute("href", "/work/nexa");
+  await page.locator("#project-nexa").scrollIntoViewIfNeeded();
+  await expect(page.locator("#project-nexa .presentation-companion")).toBeHidden();
+  expect((await page.locator("#project-nexa .presentation-cover").boundingBox())!.width).toBeGreaterThan(300);
+  await context.close();
 });
