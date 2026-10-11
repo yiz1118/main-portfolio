@@ -6,6 +6,7 @@ import { site } from "../../lib/site";
 
 const routes = ["/", "/work", "/services", "/about", "/contact", ...projects.map(project => `/work/${project.slug}`)];
 const widths = [375, 390, 430, 768, 1024, 1440];
+const artifacts = process.env.PORTFOLIO_QA_DIR || "artifacts/redesign";
 
 for (const width of widths) {
   test(`all eleven pages render with loaded images and no overflow at ${width}px`, async ({ page }) => {
@@ -33,8 +34,8 @@ for (const width of widths) {
         }
       }
       await page.evaluate(() => window.scrollTo(0, 0));
-      mkdirSync("artifacts/redesign/responsive", { recursive: true });
-      await page.screenshot({ path: `artifacts/redesign/responsive/${route === "/" ? "home" : route.slice(1).replaceAll("/", "-")}-${width}.png`, fullPage: true });
+      mkdirSync(`${artifacts}/responsive`, { recursive: true });
+      await page.screenshot({ path: `${artifacts}/responsive/${route === "/" ? "home" : route.slice(1).replaceAll("/", "-")}-${width}.png`, fullPage: true });
     }
     expect(errors).toEqual([]);
   });
@@ -179,7 +180,7 @@ test("scroll reveals complete once, reduced motion stays visible, and hover rema
   await expect(page.locator(".motion-pending")).toHaveCount(0);
   const cover = page.locator("#project-vanta .presentation-cover");
   await cover.hover();
-  expect(await cover.locator("img").evaluate(element => getComputedStyle(element).transform)).toBe("none");
+  await expect.poll(() => cover.locator("img").evaluate(element => getComputedStyle(element).transform)).toBe("none");
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await cover.hover();
   await expect.poll(() => cover.locator("img").evaluate(element => getComputedStyle(element).transform)).toBe("matrix(1.015, 0, 0, 1.015, 0, 0)");

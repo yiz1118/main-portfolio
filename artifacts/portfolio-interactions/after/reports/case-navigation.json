@@ -1,0 +1,132 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\alson\\Documents\\codexProject\\Portfolio website\\main-portfolio\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--workers=1",
+      "tests/browser/interactions.spec.ts",
+      "--grep",
+      "all case-study",
+      "--reporter=line,json"
+    ],
+    "configFile": "C:\\Users\\alson\\Documents\\codexProject\\Portfolio website\\main-portfolio\\playwright.config.ts",
+    "rootDir": "C:/Users/alson/Documents/codexProject/Portfolio website/main-portfolio/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Portfolio website/main-portfolio/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/main-portfolio/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node --import ./tests/mock-email.mjs ./node_modules/next/dist/bin/next start -p 3101",
+      "url": "http://localhost:3101",
+      "reuseExistingServer": false,
+      "timeout": 60000,
+      "env": {
+        "RESEND_API_KEY": "test-only-key",
+        "CONTACT_FROM": "test@example.com",
+        "CONTACT_TO": "test@example.com",
+        "SITE_MODE": "preview",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "interactions.spec.ts",
+      "file": "interactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all case-study section anchors and previous/next destinations remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1859,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T14:02:47.953Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e3a1181bd00640addebc-198b83b23c115a5e493f",
+          "file": "interactions.spec.ts",
+          "line": 38,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-11T14:02:46.754Z",
+    "duration": 3728.457,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

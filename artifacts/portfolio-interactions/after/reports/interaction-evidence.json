@@ -1,0 +1,271 @@
+{
+  "verifiedAt": "2026-10-11T14:11:20.928Z",
+  "checks": [
+    {
+      "route": "/",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/services",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/vanta",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/nexa",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/form27",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/ember",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/atelier",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/sova",
+      "width": 320,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/services",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/vanta",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/nexa",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/form27",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/ember",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/atelier",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/sova",
+      "width": 375,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/vanta",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/nexa",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/form27",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/ember",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/atelier",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/work/sova",
+      "width": 768,
+      "linksPreserved": false,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/services",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/vanta",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/nexa",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/form27",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/ember",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/atelier",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    },
+    {
+      "route": "/work/sova",
+      "width": 1440,
+      "linksPreserved": true,
+      "overflow": false
+    }
+  ],
+  "browserErrors": [],
+  "notes": "Chrome browser emulation and local production preview; original main-content destinations compared with baseline. No email, WhatsApp message, push or deployment."
+}

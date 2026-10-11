@@ -16,10 +16,13 @@ export function MotionObserver() {
       });
     }, { threshold: 0.06, rootMargin: "0px 0px -24px 0px" });
     function register() {
-      document.querySelectorAll<HTMLElement>("[data-reveal]").forEach(element => {
+      const elements = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]")).filter(element => !seen.has(element));
+      // Batch layout reads before class writes, including after work filters change.
+      const candidates = elements.map(element => ({ element, belowFold: element.getBoundingClientRect().top >= window.innerHeight }));
+      candidates.forEach(({ element, belowFold }) => {
         if (seen.has(element)) return;
         seen.add(element);
-        if (!preference.matches && element.getBoundingClientRect().top >= window.innerHeight) {
+        if (!preference.matches && belowFold) {
           element.classList.add("motion-pending"); observer.observe(element);
         }
       });

@@ -4,19 +4,21 @@ import { ButtonLink, ContactCTA, InlineLink, SectionLabel } from "@/components/u
 import { HeroShowcase } from "@/components/hero-showcase";
 import { ProjectCard } from "@/components/project-card";
 import { Process } from "@/components/process";
+import { SectionNavigation } from "@/components/section-navigation";
 import { capabilities } from "@/data/services";
 import { projects } from "@/data/projects";
 import { site } from "@/lib/site";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = { ...pageMetadata("Alson Chua — Independent Web & App Developer", "Websites, web apps, e-commerce, MVPs, dashboards and AI products. Explore six independent concept projects by Alson Chua. Malaysia, working worldwide.", "/"), title: { absolute: `${site.name} — ${site.title}` } };
+const workSections = projects.map(project => ({ id: `project-${project.slug}`, label: project.title === "VANTA Motorworks" ? "VANTA" : project.title === "ATELIER NORTH" ? "ATELIER" : project.title, number: project.number }));
 
 export default function Home() {
   return <>
     <section className="hero container">
       <div className="hero-introduction">
         <p className="hero-top"><span aria-hidden="true" />Available for freelance work</p>
-        <h1>Ideas into<br /><span className="hero-emphasis">real products.</span></h1>
+        <h1><span className="hero-line"><span>Ideas into</span></span><span className="hero-line"><span className="hero-emphasis">real products.</span></span></h1>
         <p className="hero-identity">{site.name}<span>{site.title}</span></p>
         <p className="hero-copy">Websites · E-Commerce · SaaS · Apps · AI</p>
         <div className="hero-actions"><ButtonLink href="#selected-work">View My Work</ButtonLink><InlineLink href="/contact">Start a Project</InlineLink></div>
@@ -26,6 +28,7 @@ export default function Home() {
     </section>
     <section className="selected-work container" id="selected-work">
       <div className="section-heading" data-reveal="type"><div><SectionLabel number="01">Selected work / 2026</SectionLabel><h2>Different worlds.<br />Same attention to detail.</h2></div><div className="work-introduction"><span className="work-count">06</span><p>Independent concepts. Designed & built by Alson.</p><InlineLink href="/work">Explore the collection</InlineLink></div></div>
+      <SectionNavigation items={workSections} label="Selected project index" collection />
       <div className="editorial-work">{projects.map(project => <ProjectCard project={project} key={project.slug} />)}</div>
     </section>
     <section className="services-home"><div className="container capability-section"><div data-reveal="type"><SectionLabel number="02">What I build</SectionLabel><h2>Made for<br />your next move.</h2><InlineLink href="/services">Explore services</InlineLink></div><div className="capability-list">{capabilities.map((item, index) => <Link href={item.href} key={item.title} className="capability" data-reveal="up"><span className="eyebrow">0{index + 1}</span><span className="capability-title">{item.title}</span><ArrowUpRight size={20} aria-hidden="true" /><span className="capability-detail">{item.detail}</span></Link>)}</div></div></section>

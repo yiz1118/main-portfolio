@@ -1,0 +1,54 @@
+[
+  {
+    "File": "app/page.tsx",
+    "Hash": "26693FBF5BB76D49C8BD7B19FA5C0C954F53C70F5D569BF2E81525B932E2DE50"
+  },
+  {
+    "File": "app/services/page.tsx",
+    "Hash": "93CE385AAE7AFCED44744CCE2E9FBCED32C206B59A1F1F77FCE8E99644E7202D"
+  },
+  {
+    "File": "app/work/[slug]/page.tsx",
+    "Hash": "0BCB182469137C61CC88EAF18C159D0C23EA7F132F98282F27312BCB00B2F36D"
+  },
+  {
+    "File": "components/hero-showcase.tsx",
+    "Hash": "3F820ECD5051A73E074803367EB9BCA41A9C45EDB9DD267338E909724D1EB8C9"
+  },
+  {
+    "File": "components/project-card.tsx",
+    "Hash": "F8000868A8F3CC63356B902257CB4FD37DA03648E67C037C84795D6968493607"
+  },
+  {
+    "File": "components/project-grid.tsx",
+    "Hash": "98FA8814D1E1051AE5DEDD6AD82B325D16DD187607769BE2B2E6FACAA52A87C2"
+  },
+  {
+    "File": "components/section-navigation.tsx",
+    "Hash": "94B65E565049255C50B3586F7478EE455C55ADA8303D4474ABAF9DC1EA6412F5"
+  },
+  {
+    "File": "components/project-image-link.tsx",
+    "Hash": "1589B422D452F951BACD522EF511BDB3C47EDF61084064B288B6C4D5305D0748"
+  },
+  {
+    "File": "components/motion-observer.tsx",
+    "Hash": "C804ADC820662F99146B1659168E6E1ABBF07F94977EC1D2BA8808C2D8A72749"
+  },
+  {
+    "File": "components/navigation.tsx",
+    "Hash": "057E3D288CFABA000A5C376DE926C7154E9D8C2102D7A5A4BA30C876348F9BA4"
+  },
+  {
+    "File": "components/process.tsx",
+    "Hash": "C697AEDA7FED19FCB4276F800F17271656EE6B91B16C0044CA83BB3E307910C1"
+  },
+  {
+    "File": "components/contact-form.tsx",
+    "Hash": "6E18F22B620B8BD753E0E10E4559585408D4EFB052A45608BD5BFFF1680A02F7"
+  },
+  {
+    "File": "app/globals.css",
+    "Hash": "A8EAA2EFBD7FBC40F04E3FC9702CF12A67E25FCF9310DE9221A1B3E48A99E89F"
+  }
+]

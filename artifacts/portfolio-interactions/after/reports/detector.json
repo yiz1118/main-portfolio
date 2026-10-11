@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root/evidence_assessment",
+  "exitCode": 0,
+  "stdout": "[]",
+  "stderr": "",
+  "findings": [],
+  "findingCount": 0,
+  "ruleCounts": {},
+  "fileLocations": [],
+  "falsePositives": [],
+  "targets": ["app/page.tsx", "app/services/page.tsx", "app/work/[slug]/page.tsx", "components/hero-showcase.tsx", "components/section-navigation.tsx", "components/project-image-link.tsx", "components/navigation.tsx", "components/process.tsx", "components/project-card.tsx", "components/project-grid.tsx", "components/contact-form.tsx"],
+  "launcher": "C:/Users/alson/.codex/skills/impeccable/scripts/impeccable.cmd",
+  "engine": "C:/Users/alson/.impeccable/bin/0.1.14/impeccable.exe",
+  "limitations": "Selected markup only, not CSS or a complete rendered-quality certification. Subsequent polish fixes in CSS and contact new-tab announcements were browser-verified separately. No live overlay injected.",
+  "invocationRecovery": {"attempt": "Initial Node/CMD wrapper failed before launcher execution", "exitCode": 1, "stderr": "The network path was not found.\r\n", "recovery": "Direct PowerShell launcher invocation completed the one successful scan; no completed scan rerun."}
+}

@@ -9,10 +9,11 @@ export function Navigation() {
   const path = usePathname(); const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null); const panel = useRef<HTMLDivElement>(null);
+  const boundary = useRef<HTMLSpanElement>(null);
   useEffect(() => {
-    const scroll = () => setScrolled(window.scrollY > 24);
-    scroll(); window.addEventListener("scroll", scroll, { passive: true });
-    return () => window.removeEventListener("scroll", scroll);
+    const observer = new IntersectionObserver(([entry]) => setScrolled(!entry.isIntersecting));
+    if (boundary.current) observer.observe(boundary.current);
+    return () => observer.disconnect();
   }, []);
   useEffect(() => {
     if (!open) return;
@@ -31,10 +32,10 @@ export function Navigation() {
     return () => { document.removeEventListener("keydown", key); window.removeEventListener("resize", resize); };
   }, [open]);
   const close = () => setOpen(false);
-  return <header className={`site-header ${scrolled ? "header-scrolled" : ""}`}><div className="nav-container container">
+  return <><span ref={boundary} className="header-boundary" aria-hidden="true" /><header className={`site-header ${scrolled ? "header-scrolled" : ""}`}><div className="nav-container container">
     <Link href="/" className="brand" aria-label={`${site.name} home`} onClick={close}><span className="brand-mark" aria-hidden="true">a<span>.</span></span><span>{site.name}<small>{site.title}</small></span></Link>
     <nav aria-label="Main navigation" className="desktop-nav">{navigation.map(item => <Link key={item.href} href={item.href} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}</Link>)}</nav>
     <Link href="/contact" className="nav-cta">Start a Project <ArrowUpRight size={16} aria-hidden="true" /></Link>
     <button ref={trigger} className="menu-toggle" aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? "Close navigation" : "Open navigation"} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
-  </div><div ref={panel} id="mobile-navigation" className="mobile-navigation" hidden={!open}><nav aria-label="Mobile navigation">{navigation.map(item => <Link key={item.href} href={item.href} onClick={close} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}<ArrowUpRight size={19} aria-hidden="true" /></Link>)}<Link className="mobile-start" href="/contact" onClick={close}>Start a Project<ArrowUpRight size={19} aria-hidden="true" /></Link></nav></div></header>;
+  </div><div ref={panel} id="mobile-navigation" className="mobile-navigation" hidden={!open}><nav aria-label="Mobile navigation">{navigation.map(item => <Link key={item.href} href={item.href} onClick={close} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}<ArrowUpRight size={19} aria-hidden="true" /></Link>)}<Link className="mobile-start" href="/contact" onClick={close}>Start a Project<ArrowUpRight size={19} aria-hidden="true" /></Link></nav></div></header></>;
 }
