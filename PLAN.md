@@ -10,7 +10,7 @@ Keep all six applications in their own repositories and deployments. One typed p
 
 ## Design contract
 
-Warm white, ink, neutral rules, local Manrope, and a restrained cobalt action colour retain the portfolio identity. Project screenshots supply industry-specific colour and atmosphere. Large editorial compositions vary by project: cinematic wide frame, SaaS preview with dashboard, offset fashion spread, hospitality split composition, architectural pair, and a softly framed commerce view. Mobile keeps the images prominent and actions clear.
+Edition of Six (October 2026): the portfolio is presented as a fine-art print portfolio. Rag-white sheet, press-black ink, graphite pencil, and one vermilion AC chop; Schibsted Grotesk for display and interface, Libre Caslon italic for inscriptions. Each project is a numbered plate (n/6) with a debossed plate mark and a typeset inscription; the hero is a credits ledger crediting Alson Chua at every stage from Discover to Launch. Project screenshots supply industry-specific colour. Spreads vary by project: wide plate, diptych, mirrored, and desktop-with-phone. See DESIGN.md.
 
 ## Content contract
 

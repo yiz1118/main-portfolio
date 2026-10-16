@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { navigation, site } from "@/lib/site";
+import { Chop } from "./chop";
 
 export function Navigation() {
   const path = usePathname(); const [open, setOpen] = useState(false);
@@ -32,10 +33,10 @@ export function Navigation() {
     return () => { document.removeEventListener("keydown", key); window.removeEventListener("resize", resize); };
   }, [open]);
   const close = () => setOpen(false);
-  return <><span ref={boundary} className="header-boundary" aria-hidden="true" /><header className={`site-header ${scrolled ? "header-scrolled" : ""}`}><div className="nav-container container">
-    <Link href="/" className="brand" aria-label={`${site.name} home`} onClick={close}><span className="brand-mark" aria-hidden="true">a<span>.</span></span><span>{site.name}<small>{site.title}</small></span></Link>
-    <nav aria-label="Main navigation" className="desktop-nav">{navigation.map(item => <Link key={item.href} href={item.href} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}</Link>)}</nav>
-    <Link href="/contact" className="nav-cta">Start a Project <ArrowUpRight size={16} aria-hidden="true" /></Link>
+  return <><span ref={boundary} className="header-boundary" aria-hidden="true" /><header className={`site-header ${scrolled || open ? "header-scrolled" : ""}`}><div className="nav-container container">
+    <Link href="/" className="brand" aria-label={`${site.name} home`} onClick={close}><Chop /><span>{site.name}<small>{site.title}</small></span></Link>
+    <nav aria-label="Main navigation" className="desktop-nav">{navigation.filter(item => item.href !== "/contact").map(item => <Link key={item.href} href={item.href} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}</Link>)}</nav>
+    <Link href="/contact" className="nav-cta inline-link" aria-current={path.startsWith("/contact") ? "page" : undefined}>Start a Project<ArrowUpRight size={16} aria-hidden="true" /></Link>
     <button ref={trigger} className="menu-toggle" aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? "Close navigation" : "Open navigation"} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
-  </div><div ref={panel} id="mobile-navigation" className="mobile-navigation" hidden={!open}><nav aria-label="Mobile navigation">{navigation.map(item => <Link key={item.href} href={item.href} onClick={close} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}<ArrowUpRight size={19} aria-hidden="true" /></Link>)}<Link className="mobile-start" href="/contact" onClick={close}>Start a Project<ArrowUpRight size={19} aria-hidden="true" /></Link></nav></div></header></>;
+  </div><div ref={panel} id="mobile-navigation" className="mobile-navigation" hidden={!open}><nav aria-label="Mobile navigation">{navigation.map(item => <Link key={item.href} href={item.href} onClick={close} aria-current={path.startsWith(item.href) ? "page" : undefined}>{item.label}<ArrowUpRight size={22} aria-hidden="true" /></Link>)}<Link className="mobile-start" href="/contact" onClick={close}>Start a Project<ArrowUpRight size={19} aria-hidden="true" /></Link><p className="mobile-meta note">{site.location}</p></nav></div></header></>;
 }

@@ -73,7 +73,7 @@ test("pointer affordance stays inside the screenshot and restores a stable keybo
 test("no JavaScript keeps the project, case contents and contact paths readable", async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: "http://localhost:3101", viewport: { width: 375, height: 844 } });
   const page = await context.newPage(); await page.goto("/");
-  await expect(page.locator("h1")).toContainText("Ideas into");
+  await expect(page.locator("h1")).toContainText("every stage by Alson Chua");
   await expect(page.locator(".hero-preview")).toHaveAttribute("href", "/work/vanta");
   await expect(page.locator(".project-presentation")).toHaveCount(6);
   await expect(page.locator(".motion-pending")).toHaveCount(0);

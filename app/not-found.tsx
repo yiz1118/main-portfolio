@@ -1,2 +1,2 @@
-import { ButtonLink, SectionLabel } from "@/components/ui";
-export default function NotFound() { return <section className="not-found container"><SectionLabel>404 / Page not found</SectionLabel><h1>This page isn’t here.</h1><p>The link may have changed. Explore the project collection to find the work you’re looking for.</p><ButtonLink href="/work">Back to work</ButtonLink></section>; }
+import { ButtonLink } from "@/components/ui";
+export default function NotFound() { return <section className="not-found container"><h1>This sheet is missing.</h1><p>The link may have changed, or the page was never part of the edition. The six works are all in the collection.</p><ButtonLink href="/work">Back to the work</ButtonLink></section>; }

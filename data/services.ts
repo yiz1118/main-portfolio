@@ -6,11 +6,11 @@ export const services = [
   { number: "05", title: "Maintenance & improvements", short: "Make your existing product work better.", description: "For teams with an existing website or application that needs fixes, new features, or a better user experience.", deliverables: ["Bug investigation & fixes", "Performance & UI improvements", "Feature development & technical handover"], outcome: "Practical improvements based on the current product and its users." },
 ];
 export const processSteps = [
-  { title: "Discover", description: "Goals, users, scope." },
-  { title: "Design", description: "Structure, flows, visuals." },
-  { title: "Build", description: "Working milestones." },
-  { title: "Test", description: "Devices, features, details." },
-  { title: "Launch", description: "Deploy, verify, hand over." },
+  { title: "Discover", description: "Goals, users, scope.", after: "Ends with a written brief and an agreed first scope." },
+  { title: "Design", description: "Structure, flows, visuals.", after: "Ends with page structure, key flows, and a visual direction you have approved." },
+  { title: "Build", description: "Working milestones.", after: "Ends with a working product on a preview link, delivered in milestones." },
+  { title: "Test", description: "Devices, features, details.", after: "Ends with checks across phones, tablets and desktop, forms, keyboard use and loading." },
+  { title: "Launch", description: "Deploy, verify, hand over.", after: "Ends with a live, verified release, the source code, and a clear handover." },
 ];
 
 export const capabilities = [

@@ -6,7 +6,7 @@ The six applications remain separate repositories and deployments. This reposito
 
 ## Run locally
 
-The installed stack is Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, locally served Manrope, and Lucide with SVG social marks.
+The installed stack is Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, locally served Schibsted Grotesk and Libre Caslon Text (Fontsource), and Lucide with SVG social marks. The visual identity, Edition of Six, is documented in [DESIGN.md](DESIGN.md) and [the redesign handoff](docs/EDITION-OF-SIX.md).
 
 ```powershell
 npm ci

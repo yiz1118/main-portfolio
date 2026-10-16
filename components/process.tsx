@@ -1,5 +1,19 @@
 import { processSteps } from "@/data/services";
-import { SectionLabel } from "./ui";
-export function Process() {
-  return <section className="process-section container"><div className="process-heading"><SectionLabel number="03">From idea to launch</SectionLabel><h2>A clear way forward.</h2></div><ol className="process-grid">{processSteps.map((step, index) => <li key={step.title} data-reveal="line" className={`reveal-delay-${index}`}><span className="process-number">0{index + 1}</span><h3>{step.title}</h3><p>{step.description}</p></li>)}</ol></section>;
+import { site } from "@/lib/site";
+
+/** One stage per full-width row, each with what exists after it, and the same name credited. */
+export function Process({ id = "process" }: { id?: string }) {
+  return <section className="process container section" id={id} aria-labelledby={`${id}-heading`}>
+    <div className="section-head">
+      <h2 id={`${id}-heading`}>Five stages.<br />One name on each.</h2>
+      <p className="note">No handoff between a designer, a developer and a tester. The person you brief is the person who ships it.</p>
+    </div>
+    <ol className="process-rows">{processSteps.map((step, index) => <li key={step.title} className="process-row" data-reveal="rule">
+      <span className="process-index">{index + 1}</span>
+      <h3>{step.title}</h3>
+      <p className="process-what">{step.description}</p>
+      <p className="process-after">{step.after}</p>
+      <span className="process-credit" aria-hidden="true">{site.name}</span>
+    </li>)}</ol>
+  </section>;
 }
