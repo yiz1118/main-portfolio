@@ -1,17 +1,19 @@
 "use client";
 import { useState } from "react";
-import type { Project } from "@/data/projects";
+import { projects as allProjects, shortTitle, type Project } from "@/data/projects";
 import { ProjectCard } from "./project-card";
 import { SectionNavigation } from "./section-navigation";
+
+const index = allProjects.map(project => ({ id: `project-${project.slug}`, label: shortTitle(project.title), number: String(Number(project.number)) }));
 
 export function ProjectGrid({ projects }: { projects: Project[] }) {
   const [category, setCategory] = useState("All work");
   const categories = ["All work", ...new Set(projects.map(project => project.category))];
   const filtered = projects.filter(project => category === "All work" || project.category === category);
   return <div>
-    <div className="project-filters" aria-label="Filter work by category">{categories.map(item => <button key={item} aria-pressed={category === item} onClick={() => setCategory(item)}>{item}</button>)}</div>
+    <div className="project-filters" role="group" aria-label="Filter work by category">{categories.map(item => <button key={item} type="button" aria-pressed={category === item} onClick={() => setCategory(item)}>{item}</button>)}</div>
     <p className="sr-only" aria-live="polite">{filtered.length} projects shown</p>
-    {category === "All work" && <SectionNavigation items={projects.map(project => ({ id: `project-${project.slug}`, label: project.title === "VANTA Motorworks" ? "VANTA" : project.title === "ATELIER NORTH" ? "ATELIER" : project.title, number: project.number }))} label="Project collection index" collection />}
-    <div className="editorial-work">{filtered.map((project, index) => <ProjectCard key={project.slug} project={project} priority={index === 0} />)}</div>
+    {category === "All work" && <SectionNavigation items={index} label="Project collection index" collection />}
+    <div className="editorial-work">{filtered.map((project, position) => <ProjectCard key={project.slug} project={project} priority={position === 0} />)}</div>
   </div>;
 }

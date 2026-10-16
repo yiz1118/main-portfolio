@@ -265,3 +265,5 @@ export function nextProject(slug: string) {
   const index = projects.findIndex(project => project.slug === slug);
   return index < 0 ? undefined : projects[(index + 1) % projects.length];
 }
+/** Compact names for indexes and stack tabs. */
+export function shortTitle(title: string) { return title === "VANTA Motorworks" ? "VANTA" : title === "ATELIER NORTH" ? "ATELIER" : title; }

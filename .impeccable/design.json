@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T05:32:30.489Z",
+  "title": "Design System: Alson Chua",
+  "extensions": {
+    "colorMeta": {
+      "press": {
+        "role": "primary",
+        "displayName": "Press Ink",
+        "canonical": "#151413",
+        "oklch": "oklch(19.2% 0.0026 67.7)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#252423",
+          "#413f3e",
+          "#5f5d5c",
+          "#81807e",
+          "#a6a4a3",
+          "#cccac9",
+          "#f0eeed"
+        ]
+      },
+      "press-hover": {
+        "role": "primary",
+        "displayName": "Lifted Ink",
+        "canonical": "#2c2a27",
+        "oklch": "oklch(28.6% 0.0061 78.2)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#262421",
+          "#413f3c",
+          "#5f5d5a",
+          "#82807c",
+          "#a7a4a0",
+          "#cdcac6",
+          "#f1eeea"
+        ]
+      },
+      "chop": {
+        "role": "secondary",
+        "displayName": "Vermilion Chop",
+        "canonical": "#cf3a1e",
+        "oklch": "oklch(56.9% 0.1902 32.7)",
+        "tonalRamp": [
+          "#1d0100",
+          "#470a02",
+          "#761604",
+          "#a9250a",
+          "#da4529",
+          "#fd755b",
+          "#ffb6a6",
+          "#fee9e4"
+        ]
+      },
+      "chop-ink": {
+        "role": "secondary",
+        "displayName": "Chop Ink",
+        "canonical": "#b0301a",
+        "oklch": "oklch(50.5% 0.1681 32.2)",
+        "tonalRamp": [
+          "#1e0100",
+          "#480801",
+          "#781302",
+          "#a82710",
+          "#d15039",
+          "#fc765e",
+          "#feb6a7",
+          "#ffe9e4"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Rag Sheet",
+        "canonical": "#f2f1ec",
+        "oklch": "oklch(95.8% 0.0067 97.4)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5e5e59",
+          "#81807c",
+          "#a6a5a0",
+          "#cbcbc6",
+          "#efeeea"
+        ]
+      },
+      "mount": {
+        "role": "neutral",
+        "displayName": "Mount Board",
+        "canonical": "#f8f7f3",
+        "oklch": "oklch(97.6% 0.0054 95.1)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#40403d",
+          "#5e5e5a",
+          "#81807d",
+          "#a5a5a1",
+          "#cbcac7",
+          "#efeeea"
+        ]
+      },
+      "pressed": {
+        "role": "neutral",
+        "displayName": "Plate Deboss",
+        "canonical": "#ebeae4",
+        "oklch": "oklch(93.6% 0.0081 98.9)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403b",
+          "#5f5e59",
+          "#81807b",
+          "#a6a59f",
+          "#cccbc5",
+          "#f0efe9"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#5e5c57",
+        "oklch": "oklch(47.5% 0.0083 88.7)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#262420",
+          "#41403b",
+          "#5f5d58",
+          "#82807b",
+          "#a7a49f",
+          "#cdcac5",
+          "#f1eee8"
+        ]
+      },
+      "graphite-faint": {
+        "role": "neutral",
+        "displayName": "Faint Graphite",
+        "canonical": "#8a877f",
+        "oklch": "oklch(62.4% 0.0123 89.8)",
+        "tonalRamp": [
+          "#0d0b06",
+          "#26241d",
+          "#424038",
+          "#605d56",
+          "#838078",
+          "#a7a49c",
+          "#cdcac2",
+          "#f2eee5"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d6d3ca",
+        "oklch": "oklch(86.7% 0.0127 91.5)",
+        "tonalRamp": [
+          "#0d0b06",
+          "#26241d",
+          "#424038",
+          "#605d56",
+          "#838078",
+          "#a7a49c",
+          "#cdcac1",
+          "#f1eee5"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#b3afa4",
+        "oklch": "oklch(75.4% 0.0161 90.3)",
+        "tonalRamp": [
+          "#0e0b04",
+          "#27241b",
+          "#434036",
+          "#615d54",
+          "#848076",
+          "#a8a499",
+          "#cecabf",
+          "#f2eee3"
+        ]
+      },
+      "glassine": {
+        "role": "neutral",
+        "displayName": "Glassine",
+        "canonical": "rgb(242 241 236 / .84)",
+        "oklch": "oklch(95.8% 0.0067 97.4)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5e5e59",
+          "#81807c",
+          "#a6a5a0",
+          "#cbcbc6",
+          "#efeeea"
+        ]
+      },
+      "slab-text": {
+        "role": "neutral",
+        "displayName": "Slab Paper",
+        "canonical": "#f2f1ec",
+        "oklch": "oklch(95.8% 0.0067 97.4)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5e5e59",
+          "#81807c",
+          "#a6a5a0",
+          "#cbcbc6",
+          "#efeeea"
+        ]
+      },
+      "slab-muted": {
+        "role": "neutral",
+        "displayName": "Slab Graphite",
+        "canonical": "#aaa69c",
+        "oklch": "oklch(72.6% 0.0149 88.7)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#27241c",
+          "#433f37",
+          "#615d54",
+          "#848076",
+          "#a8a49a",
+          "#cecac0",
+          "#f2eee3"
+        ]
+      },
+      "slab-rule": {
+        "role": "neutral",
+        "displayName": "Slab Rule",
+        "canonical": "#3b3935",
+        "oklch": "oklch(34.5% 0.0074 84.6)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#262420",
+          "#413f3b",
+          "#5f5d59",
+          "#82807b",
+          "#a7a49f",
+          "#cdcac5",
+          "#f1eee9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page h1s; case titles run to clamp(48px, 7.4vw, 120px)."
+      },
+      "ledger": {
+        "displayName": "Ledger",
+        "purpose": "The home h1 as ruled credit rows: stage name, dotted leader, italic credit."
+      },
+      "numeral": {
+        "displayName": "Edition Numeral",
+        "purpose": "The n/6 above each work's title; denominator in regular weight Faint Graphite."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s; the commission call and colophon name are the oversized exceptions."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3s; work titles and process stages scale up inside their rows."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One plain sentence under a display heading, press ink, max 34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text in graphite; 16px at 1023px and below; reading measure 58 to 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, inline links and the nav call to action."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Presentation meta, definition terms, form labels (at 600), filter chips."
+      },
+      "fine": {
+        "displayName": "Fine",
+        "purpose": "Status lines, hints, errors, caption types, inscription meta."
+      },
+      "note": {
+        "displayName": "Note (italic)",
+        "purpose": "Libre Caslon italic: section asides, catalogue notes, outcomes, captions, footer colophon. Always italic."
+      },
+      "inscription": {
+        "displayName": "Inscription (italic)",
+        "purpose": "Libre Caslon italic: plate titles and the maker's hand. The edition fraction inside switches to the grotesk, 15px/500 tabular."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "System monospace for checksums and the copyable brief only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mount",
+        "value": "0 1px 0 rgb(21 20 19 / .05), 0 22px 44px -32px rgb(21 20 19 / .42)",
+        "purpose": "Under every plate sheet and the mobile-story mount."
+      },
+      {
+        "name": "deboss",
+        "value": "inset 1px 1px 0 rgb(21 20 19 / .1), inset -1px -1px 0 rgb(255 255 255 / .85)",
+        "purpose": "The plate mark recessed into the mount."
+      },
+      {
+        "name": "struck-sheet",
+        "value": "0 10px 24px -18px rgb(21 20 19 / .5)",
+        "purpose": "The selected tab in the hero sheet stack, shifted 8px toward the plate."
+      },
+      {
+        "name": "paper-edge",
+        "value": "0 -12px 24px rgb(21 20 19 / .14)",
+        "purpose": "Leading edge of the translucent overlay as a plate is pulled."
+      },
+      {
+        "name": "press",
+        "value": "inset 0 2px 0 rgb(0 0 0 / .22)",
+        "purpose": "A button while held, with 1px downward travel."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 2px 0 var(--press)",
+        "purpose": "Doubles a field's underline to 2px press on focus (textarea: inset 0 0 0 1px var(--press))."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid var(--chop); outline-offset: 4px",
+        "purpose": "Global focus-visible ring; slab paper on the ink slab. Not a box-shadow; recorded here because the schema has no focus group."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Default curve for state changes, line draws and arrivals."
+      },
+      {
+        "name": "ease-pull",
+        "value": "cubic-bezier(.7, 0, .2, 1)",
+        "purpose": "The paper overlay lifting off a plate."
+      },
+      {
+        "name": "t-feedback",
+        "value": "140ms",
+        "purpose": "Button, chip and tab fills and press travel."
+      },
+      {
+        "name": "t-state",
+        "value": "220ms",
+        "purpose": "Underline draws, arrow nudges, header change, mobile menu drop."
+      },
+      {
+        "name": "t-arrival",
+        "value": "760ms",
+        "purpose": "Rules drawing on entry, sections rising 18px, image hover scale."
+      },
+      {
+        "name": "t-pull",
+        "value": "980ms",
+        "purpose": "Plate pull: overlay lift and plate-mark border draw."
+      },
+      {
+        "name": "plate-morph",
+        "value": "520ms cubic-bezier(.2, .8, .2, 1)",
+        "purpose": "Shared view transition from a plate into its case-study hero."
+      },
+      {
+        "name": "ledger-arrival",
+        "value": "rules 900ms (stagger 80ms); stage names 820ms from a clipped line; credits 500ms from 520ms + 90ms per row",
+        "purpose": "Home credits ledger on load."
+      },
+      {
+        "name": "sheet-settle",
+        "value": "700ms, 14px rise, delay 120ms",
+        "purpose": "Hero plate sheet settling on load."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations .01ms; overlays removed; no travel",
+        "purpose": "prefers-reduced-motion: state and feedback remain, wipes and movement do not."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "max-width: 1023px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width: 767px"
+      },
+      {
+        "name": "fine-pointer",
+        "value": "(hover: hover) and (pointer: fine)"
+      },
+      {
+        "name": "container",
+        "value": "1328px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Press-ink block with a trailing up-right arrow; the one primary action (Start a Project).",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Start a Project<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 52px; padding: 14px 24px; border: 1px solid transparent; border-radius: 0; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-size: 16px; font-weight: 600; letter-spacing: -.005em; line-height: 1.6; white-space: nowrap; text-decoration: none; cursor: pointer; transition: background 140ms, border-color 140ms, box-shadow 140ms, transform 140ms cubic-bezier(.16, 1, .3, 1); } .ds-btn-primary svg { transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-btn-primary:hover svg { transform: translate(3px, -3px); } .ds-btn-primary:active { transform: translateY(1px); box-shadow: inset 0 2px 0 rgb(0 0 0 / .22); } .ds-btn-primary:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 4px; } .ds-btn-primary { background: var(--press, #151413); color: var(--sheet, #f2f1ec); } .ds-btn-primary:hover { background: var(--press-hover, #2c2a27); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Transparent with a strong hairline outline; secondary actions such as View Source Code or Copy project brief.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">View Source Code<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 52px; padding: 14px 24px; border: 1px solid transparent; border-radius: 0; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-size: 16px; font-weight: 600; letter-spacing: -.005em; line-height: 1.6; white-space: nowrap; text-decoration: none; cursor: pointer; transition: background 140ms, border-color 140ms, box-shadow 140ms, transform 140ms cubic-bezier(.16, 1, .3, 1); } .ds-btn-secondary svg { transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-btn-secondary:hover svg { transform: translate(3px, -3px); } .ds-btn-secondary:active { transform: translateY(1px); box-shadow: inset 0 2px 0 rgb(0 0 0 / .22); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 4px; } .ds-btn-secondary { background: transparent; border-color: var(--graphite-faint, #8a877f); color: var(--press, #151413); } .ds-btn-secondary:hover { background: var(--mount, #f8f7f3); border-color: var(--press, #151413); }"
+    },
+    {
+      "name": "Inline Link",
+      "kind": "custom",
+      "refersTo": "inline-link",
+      "description": "The quiet second action: label type, trailing arrow, an underline stub that draws to full width on hover or focus.",
+      "html": "<a class=\"ds-inline-link\" href=\"#\">See the six works<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-inline-link { position: relative; display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-size: 16px; font-weight: 600; color: var(--press, #151413); text-decoration: none; } .ds-inline-link::after { content: \"\"; position: absolute; left: 0; right: 26px; bottom: 8px; height: 1px; background: currentColor; transform-origin: left; transform: scaleX(.18); transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-inline-link svg { transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-inline-link:hover::after, .ds-inline-link:focus-visible::after { transform: scaleX(1); } .ds-inline-link:hover svg { transform: translate(3px, -3px); } .ds-inline-link:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 4px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky header: chop seal and name with italic title, drawn-underline links with a 5px vermilion tick on the current page, Start a Project at the end.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\"><span class=\"ds-nav-chop\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" fill=\"currentColor\"/><rect x=\"3.2\" y=\"3.2\" width=\"33.6\" height=\"33.6\" fill=\"none\" stroke=\"#f2f1ec\" stroke-width=\"1.2\"/><path fill=\"#f2f1ec\" fill-rule=\"evenodd\" d=\"M7.4 31 12.2 9h4.1l4.8 22h-3.5l-.95-4.6h-4.84L10.9 31H7.4Zm5.1-7.7h3.6L14.3 14.6l-1.8 8.7ZM33 9H23v22h10v-3.3h-6.5V12.3H33V9Z\"/></svg></span><span>Alson Chua<small>Independent Web &amp; App Developer</small></span></a><nav class=\"ds-nav-links\" aria-label=\"Main navigation\"><a href=\"#\" aria-current=\"page\">Work</a><a href=\"#\">Services</a><a href=\"#\">About</a></nav><a class=\"ds-nav-cta\" href=\"#\">Start a Project<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 32px; height: 76px; padding: 0 24px; background: var(--sheet, #f2f1ec); border-bottom: 1px solid var(--rule, #d6d3ca); font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); color: var(--press, #151413); } .ds-nav a { color: inherit; text-decoration: none; } .ds-nav a:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 4px; } .ds-nav-brand { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; font-size: 17px; font-weight: 650; letter-spacing: -.02em; line-height: 1.15; } .ds-nav-brand small { display: block; font-family: var(--font-note, \"Libre Caslon Text\", Georgia, \"Times New Roman\", serif); font-style: italic; font-weight: 400; font-size: 14px; letter-spacing: 0; color: var(--graphite, #5e5c57); } .ds-nav-chop { display: inline-block; width: 30px; height: 30px; color: var(--chop, #cf3a1e); transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-nav-chop svg { display: block; width: 100%; height: 100%; } .ds-nav-brand:hover .ds-nav-chop { transform: rotate(-4deg); } .ds-nav-links { display: flex; align-items: center; gap: 30px; margin-left: auto; } .ds-nav-links a { position: relative; display: inline-flex; align-items: center; min-height: 44px; font-size: 16px; } .ds-nav-links a::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 9px; height: 1px; background: var(--press, #151413); transform-origin: left; transform: scaleX(0); transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-nav-links a:hover::after, .ds-nav-links a:focus-visible::after, .ds-nav-links a[aria-current]::after { transform: scaleX(1); } .ds-nav-links a[aria-current]::before { content: \"\"; position: absolute; left: -12px; top: 50%; width: 5px; height: 5px; margin-top: -3px; background: var(--chop, #cf3a1e); } .ds-nav-cta { position: relative; display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 16px; font-weight: 600; } .ds-nav-cta::after { content: \"\"; position: absolute; left: 0; right: 26px; bottom: 8px; height: 1px; background: currentColor; transform-origin: left; transform: scaleX(.18); transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-nav-cta:hover::after { transform: scaleX(1); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Underline-only field with an italic Required/Optional mark; focus doubles the underline in press, errors switch to Chop Ink.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Name <span>Required</span></label><input id=\"ds-name\" name=\"name\" autocomplete=\"name\"></div><div class=\"ds-field\"><label for=\"ds-email\">Email <span>Required</span></label><input id=\"ds-email\" name=\"email\" type=\"email\" value=\"you@\" aria-invalid=\"true\" aria-describedby=\"ds-email-error\"><span class=\"ds-field-error\" id=\"ds-email-error\">Enter a valid email address.</span></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; max-width: 360px; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); color: var(--press, #151413); } .ds-field + .ds-field { margin-top: 24px; } .ds-field label { font-size: 15px; font-weight: 600; } .ds-field label span { margin-left: 6px; font-family: var(--font-note, \"Libre Caslon Text\", Georgia, \"Times New Roman\", serif); font-style: italic; font-weight: 400; color: var(--graphite, #5e5c57); } .ds-field input { width: 100%; min-height: 50px; padding: 10px 2px; border: 0; border-bottom: 1px solid var(--graphite-faint, #8a877f); border-radius: 0; background: transparent; font-family: inherit; font-size: 17px; color: var(--press, #151413); caret-color: var(--chop, #cf3a1e); transition: border-color 140ms, box-shadow 140ms; } .ds-field input:focus-visible { outline: none; border-color: var(--press, #151413); box-shadow: 0 2px 0 var(--press, #151413); } .ds-field input[aria-invalid=\"true\"] { border-color: var(--chop-ink, #b0301a); } .ds-field-error { font-size: 14px; color: var(--chop-ink, #b0301a); }"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Square outlined toggles for the work collection; the pressed one fills with press ink.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter work by category\"><button type=\"button\" aria-pressed=\"true\">All work</button><button type=\"button\" aria-pressed=\"false\">Websites</button><button type=\"button\" aria-pressed=\"false\">E-Commerce</button><button type=\"button\" aria-pressed=\"false\">Web Apps</button></div>",
+      "css": ".ds-filters { display: flex; flex-wrap: wrap; gap: 8px; } .ds-filters button { min-height: 44px; padding: 10px 16px; border: 1px solid var(--graphite-faint, #8a877f); border-radius: 0; background: transparent; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-size: 15px; color: var(--press, #151413); cursor: pointer; transition: background 140ms, color 140ms, border-color 140ms; } .ds-filters button[aria-pressed=\"true\"] { background: var(--press, #151413); border-color: var(--press, #151413); color: var(--sheet, #f2f1ec); } .ds-filters button:hover:not([aria-pressed=\"true\"]) { border-color: var(--press, #151413); } .ds-filters button:active { transform: translateY(1px); } .ds-filters button:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 4px; }"
+    },
+    {
+      "name": "Plate",
+      "kind": "card",
+      "refersTo": "plate-sheet",
+      "description": "Signature unit: mount sheet, debossed plate mark, image, italic inscription (title, n/6, the hand). Pulled on entry: the paper overlay lifts while the mark draws.",
+      "html": "<figure class=\"ds-plate\"><a class=\"ds-plate-link\" href=\"#\" aria-label=\"View VANTA Motorworks case study\"><span class=\"ds-plate-mark\"><span class=\"ds-plate-image\"></span></span></a><figcaption class=\"ds-inscription\"><span class=\"ds-inscription-title\">VANTA Motorworks</span><span class=\"ds-inscription-edition\">1/6</span><span class=\"ds-inscription-hand\">A. Chua, 2026</span><span class=\"ds-inscription-meta\">Automotive / Performance · Independent concept</span></figcaption></figure>",
+      "css": ".ds-plate { margin: 0; max-width: 560px; padding: 28px 28px 20px; background: var(--mount, #f8f7f3); box-shadow: 0 1px 0 rgb(21 20 19 / .05), 0 22px 44px -32px rgb(21 20 19 / .42); } .ds-plate-link { display: block; color: inherit; } .ds-plate-link:focus-visible { outline: 2px solid var(--chop, #cf3a1e); outline-offset: 6px; } .ds-plate-mark { position: relative; display: block; padding: 8px; background: var(--pressed, #ebeae4); box-shadow: inset 1px 1px 0 rgb(21 20 19 / .1), inset -1px -1px 0 rgb(255 255 255 / .85); } .ds-plate-mark::before, .ds-plate-mark::after { content: \"\"; position: absolute; inset: 0; pointer-events: none; } .ds-plate-mark::before { border-block: 1px solid var(--rule-strong, #b3afa4); transform-origin: left; animation: ds-draw-x 980ms cubic-bezier(.16, 1, .3, 1) both; } .ds-plate-mark::after { border-inline: 1px solid var(--rule-strong, #b3afa4); transform-origin: top; animation: ds-draw-y 980ms cubic-bezier(.16, 1, .3, 1) both; } .ds-plate-image { position: relative; display: block; aspect-ratio: 3 / 2; overflow: hidden; background: #dcdad3; } .ds-plate-image::after { content: \"\"; position: absolute; inset: 0; background: rgb(236 235 229 / .74); -webkit-backdrop-filter: blur(10px) saturate(.6); backdrop-filter: blur(10px) saturate(.6); box-shadow: 0 -12px 24px rgb(21 20 19 / .14); transform: translateY(101%); animation: ds-paper-lift 980ms cubic-bezier(.7, 0, .2, 1) 260ms both; } .ds-inscription { display: grid; grid-template-columns: 1fr auto 1fr; gap: 6px 18px; align-items: baseline; padding-top: 14px; } .ds-inscription > span { font-family: var(--font-note, \"Libre Caslon Text\", Georgia, \"Times New Roman\", serif); font-style: italic; font-size: 16px; line-height: 1.4; color: var(--graphite, #5e5c57); } .ds-inscription .ds-inscription-title { color: var(--press, #151413); } .ds-inscription .ds-inscription-edition { font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-style: normal; font-size: 15px; font-weight: 500; font-variant-numeric: tabular-nums; color: var(--press, #151413); } .ds-inscription .ds-inscription-hand { justify-self: end; text-align: right; } .ds-inscription .ds-inscription-meta { grid-column: 1 / -1; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); font-style: normal; font-size: 14px; } @keyframes ds-paper-lift { from { transform: translateY(0); } to { transform: translateY(101%); } } @keyframes ds-draw-x { from { transform: scaleX(0); } to { transform: scaleX(1); } } @keyframes ds-draw-y { from { transform: scaleY(0); } to { transform: scaleY(1); } } @media (prefers-reduced-motion: reduce) { .ds-plate-mark::before, .ds-plate-mark::after, .ds-plate-image::after { animation: none; } }"
+    },
+    {
+      "name": "Sheet Stack",
+      "kind": "custom",
+      "refersTo": "sheet-tab",
+      "description": "Six numbered tabs on the plate's edge; the selected sheet is struck 8px forward with no cross-fade. Keys 1 to 6 select.",
+      "html": "<div class=\"ds-stack\" role=\"group\" aria-label=\"Choose one of the six works\"><button type=\"button\" aria-pressed=\"true\"><span class=\"ds-stack-number\">1</span><span class=\"ds-stack-name\">VANTA</span></button><button type=\"button\" aria-pressed=\"false\"><span class=\"ds-stack-number\">2</span><span class=\"ds-stack-name\">NEXA</span></button><button type=\"button\" aria-pressed=\"false\"><span class=\"ds-stack-number\">3</span><span class=\"ds-stack-name\">FORM / 27</span></button><button type=\"button\" aria-pressed=\"false\"><span class=\"ds-stack-number\">4</span><span class=\"ds-stack-name\">EMBER</span></button><button type=\"button\" aria-pressed=\"false\"><span class=\"ds-stack-number\">5</span><span class=\"ds-stack-name\">ATELIER</span></button><button type=\"button\" aria-pressed=\"false\"><span class=\"ds-stack-number\">6</span><span class=\"ds-stack-name\">SOVA</span></button></div>",
+      "css": ".ds-stack { display: grid; grid-template-rows: repeat(6, minmax(44px, 1fr)); width: 92px; margin-left: 8px; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); } .ds-stack button { position: relative; display: grid; align-content: center; justify-items: start; gap: 2px; min-height: 56px; margin: -1px 0 0; padding: 6px 10px 6px 14px; border: 1px solid var(--rule, #d6d3ca); border-left: 0; border-radius: 0; background: var(--sheet, #f2f1ec); text-align: left; color: var(--graphite, #5e5c57); font-family: inherit; cursor: pointer; transition: background 140ms, color 140ms, transform 140ms cubic-bezier(.16, 1, .3, 1); } .ds-stack button:first-child { margin-top: 0; } .ds-stack-number { font-size: 22px; font-weight: 640; line-height: 1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; } .ds-stack-name { font-size: 13px; font-weight: 500; line-height: 1.2; letter-spacing: .01em; white-space: nowrap; } .ds-stack button[aria-pressed=\"true\"] { z-index: 1; background: var(--mount, #f8f7f3); color: var(--press, #151413); transform: translateX(-8px); box-shadow: 0 10px 24px -18px rgb(21 20 19 / .5); } .ds-stack button[aria-pressed=\"true\"] .ds-stack-name { font-weight: 650; } .ds-stack button:hover:not([aria-pressed=\"true\"]) { background: var(--mount, #f8f7f3); color: var(--press, #151413); transform: translateX(-3px); } .ds-stack button:focus-visible { z-index: 2; outline: 2px solid var(--chop, #cf3a1e); outline-offset: -2px; }"
+    },
+    {
+      "name": "Credits Ledger",
+      "kind": "custom",
+      "refersTo": "ledger",
+      "description": "Home h1: each stage on a ruled row with a dotted leader and an italic credit. Rules draw, names rise from a clipped line, credits settle.",
+      "html": "<p class=\"ds-ledger\" aria-label=\"Discover, design, build, test and launch: every stage by Alson Chua.\"><span class=\"ds-ledger-row\" style=\"--i:0\" aria-hidden=\"true\"><span class=\"ds-ledger-stage\"><span>Discover</span></span><span class=\"ds-ledger-leader\"></span><span class=\"ds-ledger-credit\">Alson Chua</span></span><span class=\"ds-ledger-row\" style=\"--i:1\" aria-hidden=\"true\"><span class=\"ds-ledger-stage\"><span>Design</span></span><span class=\"ds-ledger-leader\"></span><span class=\"ds-ledger-credit\">Alson Chua</span></span><span class=\"ds-ledger-row\" style=\"--i:2\" aria-hidden=\"true\"><span class=\"ds-ledger-stage\"><span>Build</span></span><span class=\"ds-ledger-leader\"></span><span class=\"ds-ledger-credit\">Alson Chua</span></span><span class=\"ds-ledger-row\" style=\"--i:3\" aria-hidden=\"true\"><span class=\"ds-ledger-stage\"><span>Test</span></span><span class=\"ds-ledger-leader\"></span><span class=\"ds-ledger-credit\">Alson Chua</span></span><span class=\"ds-ledger-row\" style=\"--i:4\" aria-hidden=\"true\"><span class=\"ds-ledger-stage\"><span>Launch</span></span><span class=\"ds-ledger-leader\"></span><span class=\"ds-ledger-credit\">Alson Chua</span></span></p>",
+      "css": ".ds-ledger { display: block; max-width: 520px; margin: 0; font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); color: var(--press, #151413); } .ds-ledger-row { position: relative; display: grid; grid-template-columns: auto minmax(16px, 1fr) auto; align-items: baseline; gap: 14px; padding: .06em 0 .1em; font-size: clamp(36px, 5vw, 64px); font-weight: 640; letter-spacing: -.036em; line-height: 1.04; } .ds-ledger-row::before { content: \"\"; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--rule-strong, #b3afa4); transform-origin: left; animation: ds-rule-draw 900ms cubic-bezier(.16, 1, .3, 1) both; animation-delay: calc(var(--i) * 80ms); } .ds-ledger-row:last-child::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--rule-strong, #b3afa4); transform-origin: left; animation: ds-rule-draw 900ms cubic-bezier(.16, 1, .3, 1) 420ms both; } .ds-ledger-stage { display: block; overflow: hidden; padding-bottom: .04em; } .ds-ledger-stage > span { display: block; animation: ds-stage-arrival 820ms cubic-bezier(.16, 1, .3, 1) both; animation-delay: calc(80ms + var(--i) * 80ms); } .ds-ledger-leader { align-self: end; margin-bottom: .32em; height: 1px; background-image: linear-gradient(to right, var(--rule-strong, #b3afa4) 1px, transparent 1px); background-size: 6px 1px; background-repeat: repeat-x; } .ds-ledger-credit { font-family: var(--font-note, \"Libre Caslon Text\", Georgia, \"Times New Roman\", serif); font-style: italic; font-weight: 400; font-size: clamp(15px, 1.25vw, 19px); letter-spacing: 0; color: var(--graphite, #5e5c57); animation: ds-credit-arrival 500ms cubic-bezier(.16, 1, .3, 1) both; animation-delay: calc(520ms + var(--i) * 90ms); } .ds-ledger-row:last-child .ds-ledger-credit { color: var(--press, #151413); } @keyframes ds-rule-draw { from { transform: scaleX(0); } to { transform: scaleX(1); } } @keyframes ds-stage-arrival { from { transform: translateY(105%); } to { transform: none; } } @keyframes ds-credit-arrival { from { opacity: 0; } to { opacity: 1; } } @media (prefers-reduced-motion: reduce) { .ds-ledger-row::before, .ds-ledger-row::after, .ds-ledger-stage > span, .ds-ledger-credit { animation: none; } }"
+    },
+    {
+      "name": "Ink Slab",
+      "kind": "card",
+      "refersTo": "ink-slab",
+      "description": "The commission call pressed in black: oversized slab-paper headline, inverted primary button, vermilion status square with the studio clock.",
+      "html": "<section class=\"ds-slab\" aria-labelledby=\"ds-slab-heading\"><h2 id=\"ds-slab-heading\">Commission<br><span>the seventh.</span></h2><div class=\"ds-slab-actions\"><p>Six works so far. Bring the next one: a website, store, SaaS, app or AI product, carried from first idea to launch.</p><a class=\"ds-slab-btn\" href=\"#\">Start a Project<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a><p class=\"ds-slab-status\"><span class=\"ds-slab-mark\" aria-hidden=\"true\"></span>Available for freelance projects worldwide. Studio time 13:21 in Malaysia (GMT+8)</p></div></section>",
+      "css": ".ds-slab { display: grid; gap: 28px; padding: 56px 40px 48px; background: var(--press, #151413); color: var(--slab-text, #f2f1ec); font-family: var(--font-sans, \"Schibsted Grotesk Variable\", \"Helvetica Neue\", Arial, sans-serif); } .ds-slab h2 { margin: 0; font-size: clamp(44px, 7.4vw, 96px); font-weight: 620; letter-spacing: -.035em; line-height: .88; color: var(--slab-text, #f2f1ec); } .ds-slab h2 span { color: var(--slab-muted, #aaa69c); } .ds-slab-actions { display: grid; gap: 22px; justify-items: start; } .ds-slab-actions > p:first-child { margin: 0; max-width: 36ch; font-size: 19px; line-height: 1.45; color: var(--slab-text, #f2f1ec); } .ds-slab-btn { display: inline-flex; align-items: center; gap: 18px; min-height: 52px; padding: 14px 24px; border-radius: 0; background: var(--slab-text, #f2f1ec); color: var(--press, #151413); font-size: 16px; font-weight: 600; letter-spacing: -.005em; text-decoration: none; transition: background 140ms, transform 140ms cubic-bezier(.16, 1, .3, 1); } .ds-slab-btn svg { transition: transform 220ms cubic-bezier(.16, 1, .3, 1); } .ds-slab-btn:hover { background: #fff; } .ds-slab-btn:hover svg { transform: translate(3px, -3px); } .ds-slab-btn:active { transform: translateY(1px); box-shadow: inset 0 2px 0 rgb(0 0 0 / .22); } .ds-slab-btn:focus-visible { outline: 2px solid var(--slab-text, #f2f1ec); outline-offset: 4px; } .ds-slab-status { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin: 0; font-size: 14px; color: var(--slab-muted, #aaa69c); font-variant-numeric: tabular-nums; } .ds-slab-mark { display: inline-block; width: 8px; height: 8px; background: var(--chop, #cf3a1e); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Edition of Six",
+    "overview": "The site is handled like a print room's portfolio box. The page is a warm rag-white sheet, everything a visitor must read to decide is set in press ink, annotation is graphite pencil, and the only colour is a small vermilion seal stamped where a logo would usually sit. Every project is treated as a numbered print: mounted on a lighter sheet, framed by a debossed plate mark, and inscribed underneath in italic with its title, its number in the edition and the maker's hand.\n\nAuthorship is the organising idea, and it is expressed with printers' devices rather than marketing furniture: credits on a ruled ledger, edition fractions (n/6), catalogue entries with provenance and checksums, a colophon in place of an about card. Structure is drawn with hairline rules, never boxes. Density is generous and editorial: very large, tightly tracked grotesk display type held against quiet italic notes, with each work composed as its own spread on a twelve-column grid so no two neighbouring projects share a layout.\n\nMotion follows the physics of paper and ink. Lines draw from the left, plates are pulled (a translucent paper overlay lifts off the image while the plate mark draws its border), a chosen sheet is struck forward at once with no cross-fade, and a plate carries over into its case-study hero as a shared view transition. Hover is a refinement reserved for fine pointers; reduced motion removes travel and wipes while every state stays legible.",
+    "keyCharacteristics": [
+      "Warm paper neutrals and a single press-black ink; colour appears only in the vermilion chop and its marks.",
+      "Two voices: Schibsted Grotesk for the work and every control, Libre Caslon italic as the pencil (inscriptions, credits, notes).",
+      "Works are mounted plates with inscriptions, never cards.",
+      "1px hairline rules carry all structure; every corner is square.",
+      "Every count is an edition mark in tabular lining figures.",
+      "The ink slab (a press-black field) appears only behind the commission call and the footer colophon.",
+      "Motion draws, pulls and strikes; works switch instantly."
+    ],
+    "rules": [
+      {
+        "name": "The Stamp, Not Paint Rule",
+        "body": "Vermilion is applied only as a mark: the chop seal, squares of 8px or less, the focus outline and the caret. It never fills a button, never colours a heading or a link, never tints a surface. Chop Ink carries error text and nothing else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper and Ink Rule",
+        "body": "Every surface is paper (sheet, mount, deboss) or ink (the slab). There is no tinted panel, no grey card and no third surface colour, and the slab appears only behind the commission call and the footer.",
+        "section": "colors"
+      },
+      {
+        "name": "The Pencil Rule",
+        "body": "Graphite annotates; press ink is for what the visitor reads to decide or act. Faint Graphite is permitted only at display size.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Hands Rule",
+        "body": "The grotesk sets anything that is the work or acts: headings, body, navigation, buttons, numbers. Caslon italic sets attribution and annotation only: inscriptions, credits, notes, captions, the Required/Optional mark beside a field label. Caslon never sets a heading, a button or a number.",
+        "section": "typography"
+      },
+      {
+        "name": "The Edition Mark Rule",
+        "body": "Every count is a tabular lining figure in the grotesk: n/6 fractions, stage indexes, sheet-tab numbers, the studio clock.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label-On-The-Object Rule",
+        "body": "Labels sit on the thing they name: the inscription under the plate, the numeral at display size as part of a work's heading, the note beside a section heading rather than above it. A small label stacked above a heading is not part of this system.",
+        "section": "typography"
+      },
+      {
+        "name": "The Spread Rule",
+        "body": "Each work gets its own composition on the twelve-column grid, and neighbouring works never share a layout. A uniform grid of project cards is not part of this system.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Structure is ruled, not boxed: 1px Hairline between rows, Strong Hairline for ledgers and controls, a press-ink rule across the top of a list, form or profile. Lists of facts, deliverables, stages, commissions and contact routes are separated by rules with no container around them.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper Physics Rule",
+        "body": "Only paper objects cast shadows: mounts, debossed marks, a struck sheet, a lifting overlay. Buttons, rows, fields and navigation stay flat; a button receives only the inset press while held.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Translucent Paper Rule",
+        "body": "Blur appears in two places only: the scrolled header (Glassine over a 12px blur) and the overlay lifting off a plate (10px blur, desaturated). There are no frosted panels.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Rule",
+        "body": "Nothing is rounded. If an element must read as a mark, it is a square.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do mount every screenshot as a plate: Mount Board (#f8f7f3) with the Mount shadow, a Plate Deboss (#ebeae4) mark with a 1px Strong Hairline border, the image, then an italic inscription with title, n/6 and the hand.",
+      "Do draw structure with 1px rules: Hairline (#d6d3ca) between rows, Strong Hairline (#b3afa4) for ledgers, Faint Graphite (#8a877f) for control outlines, Press Ink (#151413) across the top of a list, form or profile.",
+      "Do keep vermilion (#cf3a1e) to the chop, squares of 8px or less, the 2px focus outline at 4px offset, and the caret.",
+      "Do set every count (n/6, stage index, tab number, clock) in tabular lining figures.",
+      "Do give each work its own spread on the twelve-column grid: mirrored, paired with a companion plate, or desktop beside phone.",
+      "Do animate lines by drawing them from the left and plates by pulling the paper off; switch between works instantly.",
+      "Do gate hover effects behind `(hover: hover) and (pointer: fine)` and give each one a focus-visible equivalent.",
+      "Do keep every interactive target at 44px or more (52px buttons, 64px mobile menu rows).",
+      "Do reserve the ink slab (#151413) for the commission call and the footer."
+    ],
+    "donts": [
+      "Don't round any corner; the radius is 0px throughout.",
+      "Don't put projects or content in tinted, bordered or shadowed cards; works are plates and facts are ruled rows.",
+      "Don't stack a small label, kicker or numbered eyebrow above a heading; labels live on the object.",
+      "Don't set headings, buttons, navigation or numbers in Libre Caslon, or annotation in the grotesk.",
+      "Don't use vermilion for text, button fills, links or any area larger than the chop; errors use Chop Ink (#b0301a).",
+      "Don't cross-fade between works; the selected sheet is struck forward at once.",
+      "Don't give buttons, rows, fields or navigation a drop shadow; the only control shadow is the inset press while a button is held.",
+      "Don't use Faint Graphite (#8a877f) for text smaller than display size; it is reserved for display numerals and control boundaries.",
+      "Don't stand in a stock or generated portrait, a signature image or a client-logo strip; the chop and the colophon carry identity."
+    ]
+  }
+}
